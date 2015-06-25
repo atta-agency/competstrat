@@ -1,3 +1,1 @@
 # competstrat
-
-readme test
