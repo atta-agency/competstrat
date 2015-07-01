@@ -30,9 +30,9 @@ wp-content/uploads/*
 # Themes, modules and overrides
 
 
-wp-content/themes/underscores/style.css
-wp-content/themes/underscores/style.min.css
-wp-content/themes/underscores/style.css.map
+wp-content/themes/underscore_sass_v1/style.css
+wp-content/themes/underscore_sass_v1/style.min.css
+wp-content/themes/underscore_sass_v1/style.css.map
 
 
 # MISC
