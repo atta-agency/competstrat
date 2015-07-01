@@ -1,0 +1,37 @@
+/*
+Theme Name: Underscores_sass
+Theme URI: http://jeanphilippe-guillermo.fr/
+Author: kochira
+Author URI: http://jeanphilippe-guillermo.fr/
+Description: Wordpress quick starter theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: underscore_sass
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Underscore_sass is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+SASS files created by Florent Christophe.
+Please edit the /import SCSS file. Do not directly edit style.css
+
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/* Main */
+@import "imports/variables";
+@import "imports/icons";
+@import "imports/grid";
+@import "imports/elements";
+@import "imports/blocs";
+@import "imports/patterns";
+@import "imports/sections";
+
+/*@import "imports/animations"; 
+
+TODO: Animations curently disable, just delete the comment if you want to use it. */

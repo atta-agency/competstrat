@@ -1,0 +1,79 @@
+.nav {
+	> li {
+		> a {
+			&:hover {}
+			&:focus{}
+		}
+		&.active {
+			> a {
+				&:hover {}
+				&:focus{}
+			}
+		}
+	}
+}
+
+.nav-list {
+	> li {
+		> a {
+			&:hover {}
+			&:focus{}
+		}
+		&.active {
+			> a {
+				&:hover {}
+				&:focus{}
+			}
+		}
+	}
+}
+
+.nav-pills {
+	> li {
+		> a {
+			&:hover {}
+			&:focus{}
+		}
+		&.active {
+			> a {
+				&:hover {}
+				&:focus{}
+			}
+		}
+	}
+}
+
+.navbar {
+	.navbar-brand {
+		&:hover{}
+		&:focus{}
+	}
+	.navbar-inner {
+		.nav {
+			> li {
+				> a {
+					&:hover {}
+					&:focus{}
+				}
+				&.active {
+					a {
+						&:hover {}
+						&:focus{}
+					}
+				}
+			}
+		}
+	}
+}
+
+.navbar-header{}
+.navbar-collapse{}
+.navbar-toggle{
+	&:hover{}
+	&:focus{}	
+}
+.navbar-fixed-top{}
+.navbar-static-top{}
+.navbar-fixed-bottom{}
+
+.icon-bar{}

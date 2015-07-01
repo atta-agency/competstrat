@@ -1,0 +1,50 @@
+ul {
+	li{
+		ul{
+			li{}
+		}
+	}
+}
+
+ul.unstyled {
+	li {
+		ul {
+			li {}
+		}
+	}
+}
+
+ul.inline {
+	li {
+		ul {
+			li {}
+		}
+	}
+}
+
+ol {
+	li {
+		ul {
+			li {}
+		}
+	}
+}
+
+dl {
+	dt {}
+	dd {}
+}
+
+.list-group{
+	list-group-item{
+		&:hover{}
+		&:focus{}
+
+		&.active{
+			&:hover{}
+			&:focus{}
+		}
+		.list-group-item-heading{}
+		.list-group-item-text{}
+	}
+}

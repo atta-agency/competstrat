@@ -1,0 +1,86 @@
+/*
+Theme Name: Underscores_sass
+Theme URI: http://jeanphilippe-guillermo.fr/
+Author: kochira
+Author URI: http://jeanphilippe-guillermo.fr/
+Description: Wordpress quick starter theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: underscore_sass
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Underscore_sass is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Please edit the import SCSS file. Do not directly edit style.css
+
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/* Main */
+.container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+section {
+  margin: 20px 0; }
+
+.text-primary {
+  color: #FF0000; }
+
+.text-secondary {
+  color: #00FF00; }
+
+.text-third {
+  color: #0000FF; }
+
+.bg-primary {
+  background-color: #FF0000; }
+
+.bg-secondary {
+  background-color: #00FF00; }
+
+.bg-third {
+  background-color: #0000FF; }
+
+.btn-primary {
+  background-color: #FF0000;
+  border: none;
+  color: #fff; }
+  .btn-primary:hover {
+    background-color: #333;
+    border: none;
+    color: #fff; }
+
+.btn-secondary {
+  background-color: #00FF00;
+  border: none;
+  color: #fff; }
+  .btn-secondary:hover {
+    background-color: #333;
+    border: none;
+    color: #fff; }
+
+.btn-third {
+  background-color: #0000FF;
+  border: none;
+  color: #fff; }
+  .btn-third:hover {
+    background-color: #333;
+    border: none;
+    color: #fff; }
+
+img {
+  max-width: 100%; }
+
+.cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* TODO: Animations curently disable, just delete the comment if you want to use it. */
