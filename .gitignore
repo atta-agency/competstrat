@@ -1,0 +1,41 @@
+# Editors, tools and OS's
+
+.buildpath
+.htaccess
+!shop/scripts/.htaccess
+!shop/scripts/index.php
+.project
+.settings
+.idea
+.svn
+.DS_Store
+.sass-cache
+config.codekit
+*.sublime-project
+*.sublime-workspace
+nbproject
+sftp-config.json
+imagesnewsletters
+/packshots
+
+
+wp-content/uploads/*
+
+
+# Config
+
+/wp-config.php
+
+
+# Themes, modules and overrides
+
+
+wp-content/themes/underscores/style.css
+wp-content/themes/underscores/style.min.css
+wp-content/themes/underscores/style.css.map
+
+
+# MISC
+
+*sitemap.xml
+robots.txt
