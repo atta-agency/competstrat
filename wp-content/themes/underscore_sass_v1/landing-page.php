@@ -2,7 +2,7 @@
 /*
 Template Name: Landing Page
 */
-?>
+
 
 
 get_header(); ?>
