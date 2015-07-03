@@ -41,7 +41,7 @@ $msg = '';
                     {$msg = "<h3>"."Oup's un petit problème.". "</h3>";}
         }
     }
-
+    
 /*
 Template Name: Landing Page
 */
