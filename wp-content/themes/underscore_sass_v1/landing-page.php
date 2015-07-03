@@ -41,7 +41,7 @@ $msg = '';
                     {$msg = "<h3>"."Oup's un petit problème.". "</h3>";}
         }
     }
-    
+
 /*
 Template Name: Landing Page
 */
@@ -53,7 +53,7 @@ get_header();?>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
-				<h1 class="site-title"><img alt="logo krill tonic" class="landing-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/krill-tonic.png"></h1>
+				<!--<h1 class="site-title"><img alt="logo krill tonic" class="landing-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/krill-tonic.png"></h1>-->
 			</div>
 		</div>
 		<div class="row decal-md">
