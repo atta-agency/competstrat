@@ -1,72 +1,86 @@
 <?php
+
+function bdConnect(){
+   try
+   {$connection= new PDO("mysql:host=jeanphilgwkrill.mysql.db;dbname=jeanphilgwkrill","jeanphilgwkrill","Gh58Hag9");
+     
+   $connection->exec("SET NAMES 'UTF8'");
+}
+catch (Exception $e)
+{
+    die('Erreur : ' . $e->getMessage());
+}
+
+return $connection;
+}
+
+function insert($mail){
+    $connexion = bdConnect();
+    $insert = $connexion->prepare("INSERT INTO newsletter(mail) VALUES(?)");
+    $insert->execute(array($mail));
+
+    $select = $connexion->prepare("select * FROM newsletter WHERE mail = ?");
+    $select->execute(array($mail));
+    $data = $select->fetch();
+
+    return $data;
+}
+
+$msg = '';
+
+    if(isset($_POST["mail"])){
+        if(filter_var ( $_POST["mail"] , FILTER_VALIDATE_EMAIL)){
+            $retour = insert($_POST["mail"]);
+
+            if($retour != false){
+
+
+                        $msg = "<h3>"."Merci ! Inscription réussie". "</h3>";
+                
+            }else
+                    {$msg = "<h3>"."Oup's un petit problème.". "</h3>";}
+        }
+    }
+
 /*
 Template Name: Landing Page
 */
 
 get_header();?>
 
-<<<<<<< Updated upstream
+<section role="main" class="content home">
 
-get_header(); ?>
-
-
-<!--Structure  contenu de base bootstrap-->
-<!--<section>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6">
-
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1 class="site-title"><img alt="logo krill tonic" class="landing-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/krill-tonic.png"></h1>
 			</div>
 		</div>
-	</div>
-</section>-->
-=======
-<section role="main" class="content" style="background: url(http://placekitten.com/1700/700) no-repeat center fixed; -webkit-background-size: cover; background-size: cover;">
-	
-				<div class="text-center newsletter">
-				<h1>Krill - Tonic </h1>
-				<p>Préparez-vous à libérer la quintessence des eaux glacées et cyclopéennes du grand nord...</p>
-				
-					<!-- AT Popup Beta 2015 BEGIN -->
-					<script type='text/javascript'>
-						(function () {
-							var _atpopq = window._atpopq || (window._atpopq = []);
-							window._atpopobj = {};
-							if (!_atpopq.loaded) {
-								var atpopjs = document.createElement('script');
-								atpopjs.type = 'text/javascript';
-								atpopjs.async = true;
-									atpopjs.src = '//cdn-media.web-view.net/popups/lib/v1/loader.min.js';
-								var s = document.getElementsByTagName('script')[0];
-								s.parentNode.insertBefore(atpopjs, s);
-								_atpopq.loaded = true;
-							}
-							_atpopq.push(['UserId', 'datjepuh8w']);
-							_atpopq.push(['PopupId', 'ja8u']);
-							_atpopq.push(['OnEventCallback', 'handleATPopupEvent']);
-						})();
-					</script>
-					<script type="text/javascript">
-						//Sample event handler function
-						function handleATPopupEvent(ev,args){
-							switch(ev){
-								case 'display':
-									//Do this when the popup is displayed
-									break;
-								case 'close':
-									//Do this when the popup gets closed by the user
-									break;
-								case 'submit':
-									//Do this when popup gets submitted and the user doesn't get redirected to a URL
-									break;
-							}
-						}
-					</script>
-					<!-- AT Popup Beta END -->
+		<div class="row decal-md">
+			<div class="col-sm-10 col-sm-offset-1">
+				<div class="text-center edito">
+					<?php while ( have_posts() ) : the_post(); ?>
+
+						<?php get_template_part( 'content', 'page' ); ?>
+
+					<?php endwhile; // end of the loop. ?>
 				</div>
-			
+				<div class="newsletter decal-md text-center">
+					<p>Pour en savoir plus sur Krill Tonic</p>
+					<form class="form-inline" action="/" method="POST">
+						<div class="form-group">
+							<input type="email" name="mail" class="form-control" id="exampleInputName2" placeholder="Votre e-mail">
+							<?php echo $msg ?>
+						</div>
+						<button type="submit" name="envoi" class="btn btn-default">S'abonner</button>
+					</form>
+				
+				</div>
+			</div>
+		</div>
+	</div>	
+
 </section>
->>>>>>> Stashed changes
 	
 
 <?php get_footer(); ?>
