@@ -1,46 +1,46 @@
 <?php
 
 function bdConnect(){
-   try
-   {$connection= new PDO("mysql:host=jeanphilgwkrill.mysql.db;dbname=jeanphilgwkrill","jeanphilgwkrill","Gh58Hag9");
-     
-   $connection->exec("SET NAMES 'UTF8'");
+	try
+	{$connection= new PDO("mysql:host=jeanphilgwkrill.mysql.db;dbname=jeanphilgwkrill","jeanphilgwkrill","Gh58Hag9");
+
+	$connection->exec("SET NAMES 'UTF8'");
 }
 catch (Exception $e)
 {
-    die('Erreur : ' . $e->getMessage());
+	die('Erreur : ' . $e->getMessage());
 }
 
 return $connection;
 }
 
 function insert($mail){
-    $connexion = bdConnect();
-    $insert = $connexion->prepare("INSERT INTO newsletter(mail) VALUES(?)");
-    $insert->execute(array($mail));
+	$connexion = bdConnect();
+	$insert = $connexion->prepare("INSERT INTO newsletter(mail) VALUES(?)");
+	$insert->execute(array($mail));
 
-    $select = $connexion->prepare("select * FROM newsletter WHERE mail = ?");
-    $select->execute(array($mail));
-    $data = $select->fetch();
+	$select = $connexion->prepare("select * FROM newsletter WHERE mail = ?");
+	$select->execute(array($mail));
+	$data = $select->fetch();
 
-    return $data;
+	return $data;
 }
 
 $msg = '';
 
-    if(isset($_POST["mail"])){
-        if(filter_var ( $_POST["mail"] , FILTER_VALIDATE_EMAIL)){
-            $retour = insert($_POST["mail"]);
+if(isset($_POST["mail"])){
+	if(filter_var ( $_POST["mail"] , FILTER_VALIDATE_EMAIL)){
+		$retour = insert($_POST["mail"]);
 
-            if($retour != false){
+		if($retour != false){
 
 
-                        $msg = "<h3>"."Merci ! Inscription réussie". "</h3>";
-                
-            }else
-                    {$msg = "<h3>"."Oup's un petit problème.". "</h3>";}
-        }
-    }
+			$msg = "<h3>"."Merci ! Inscription réussie". "</h3>";
+
+		}else
+		{$msg = "<h3>"."Oup's un petit problème.". "</h3>";}
+	}
+}
 
 /*
 Template Name: Landing Page
@@ -54,7 +54,7 @@ get_header();?>
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 
-			<h1 class="site-title"><img alt="logo krill tonic" class="landing-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/krill-tonic.png"></h1>
+				<h1 class="site-title"><img alt="logo krill tonic" class="landing-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/krill-tonic.png"></h1>
 
 			</div>
 		</div>
@@ -76,13 +76,13 @@ get_header();?>
 						</div>
 						<button type="submit" name="envoi" class="btn btn-default">S'abonner</button>
 					</form>
-				
+
 				</div>
 			</div>
 		</div>
 	</div>	
 
 </section>
-	
+
 
 <?php get_footer(); ?>

@@ -12,6 +12,9 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 640; /* pixels */
 }
 
+//CUSTOM OPTION  PAGE
+require 'acf_custom_option_page.php';
+
 if ( ! function_exists( 'underscore_sass_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
