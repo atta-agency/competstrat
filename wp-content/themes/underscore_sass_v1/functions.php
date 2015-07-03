@@ -136,3 +136,14 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// THIS THEME USES wp_nav_menu() IN TWO LOCATION FOR CUSTOM MENU.
+if ( function_exists( 'register_nav_menus' ) ) {
+	$args = array(
+	  'main' => __( 'Primary Header Nav' ),
+	  'secondary' => __( 'My Custom Footer Menu' )
+	);
+	register_nav_menus( $args );
+}
+
+//custom script newsletter

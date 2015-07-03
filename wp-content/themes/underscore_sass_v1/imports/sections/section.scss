@@ -5,19 +5,68 @@ section {
 		top: 0;
 		bottom: 0;
 		position: absolute;
+		background: url(assets/img/background.jpg) no-repeat center fixed;;
+		-webkit-background-size: cover;
+		background-size: cover;
+		padding: 150px 0;
+		color: #ffffff;
+		overflow: scroll;
 
+		@media(max-width: 768px) {
+			text-align:center;
+			padding: 50px 0;
+		}
 
-	.newsletter{
-		background: #FFF;
-		width: 400px;
-		height: 200px;
-		position: absolute;
-		top: 50%;
-		left:50%;
-		margin-left: -200px;
-		margin-top: -100px;
-		opacity: 0.8;
+		img {
+			&.landing-logo {
+				width: 100%;
 
+				@media(max-width: 768px) {
+					width:70%;
+				}
+			}
+		}
+
+		h1 {
+			font-size: 8em;
+			text-transform: uppercase;
+			font-family: "Arial", sans-serif;
+			font-weight: 900;
+		}
+
+		.edito {
+			color: #ffffff;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			font-weight: 100;
+		}
+		.newsletter {
+			.form-control {
+				border-radius: 0;
+			}
+			h3 {
+				position: absolute;
+			}
+			button {
+				background: #369dcc;
+				border-radius: 0;
+				border: none;
+				color: #fff;
+				border: none;
+				padding: 7px 12px;
+
+				&:hover {
+					background:darken(#369dcc, 20%);
+				}
+			}
+		}
+		&.home {
+			h1 {
+				display: none;
+				&.site-title {
+					display: block;
+				}
+			}
 		}
 	}
 }
