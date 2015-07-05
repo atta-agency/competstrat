@@ -31,6 +31,7 @@
 <?php wp_footer(); ?>
 
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
 </body>
 </html>
