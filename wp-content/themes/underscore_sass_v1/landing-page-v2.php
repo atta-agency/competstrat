@@ -139,7 +139,7 @@ get_header();?>
 			</div>
 		</div>
 		<div class="scroll_way">
-			<a class="scrollTo" href="#pFive"><i class="fa fa-arrow-down"></i></a>
+			<a class="scrollTo" href="#colophon"><i class="fa fa-arrow-down"></i></a>
 		</div>
 	</div>
 </section>
