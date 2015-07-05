@@ -13,15 +13,16 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<div class="container">
-				<div class="col-sm-4 text-left">
+				
+				<div class="col-sm-4 col-sm-offset-4 text-center">
+					<?php echo wp_nav_menu( array( 'theme_location' => 'secondary' )); ?>
+				</div>
+				<div class="col-sm-4 text-right">
 					<ul class="social-list list-unstyled list-inline">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-google"></i></a></li>
 					</ul>
-				</div>
-				<div class="col-sm-8 text-right">
-					<?php echo wp_nav_menu( array( 'theme_location' => 'secondary' )); ?>
 				</div>
 			</div>
 		</div><!-- .site-info -->
