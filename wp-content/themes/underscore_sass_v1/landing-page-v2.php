@@ -48,7 +48,7 @@ Template Name: Landing Page v2
 
 get_header();?>
 
-<section class="landing_head part" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/img/background.jpg) no-repeat center center; background-attachment: fixed;">
+<section class="landing_head part" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/img/part1.jpg) no-repeat center center; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -84,7 +84,7 @@ get_header();?>
 	</div>
 </section>
 
-<section class="text-center part part_1" id="pOne" style="background:url(http://placehold.it/1700x1400/343434) no-repeat center center;">
+<section class="text-center part part_1" id="pOne" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/img/part2.jpg) no-repeat center center; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -99,7 +99,7 @@ get_header();?>
 	</div>
 </section>
 
-<section class="text-center part part_2" id="pTwo" style="background:url(http://placehold.it/1700x1400) no-repeat center center;">
+<section class="text-center part part_2" id="pTwo" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/img/part3.jpg) no-repeat center center;">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -114,7 +114,7 @@ get_header();?>
 	</div>
 </section>
 
-<section class="text-center part part_3" id="pThree" style="background:url(http://placehold.it/1700x1400/343434) no-repeat center center;">
+<section class="text-center part part_3" id="pThree" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/img/part4.jpg) no-repeat center center; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -129,7 +129,7 @@ get_header();?>
 	</div>
 </section>
 
-<section class="text-center part part_4" id="pFoor" style="background:url(http://placehold.it/1700x1400) no-repeat center center;">
+<section class="text-center part part_4" id="pFoor" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/img/part1.jpg) no-repeat center center; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -144,7 +144,7 @@ get_header();?>
 	</div>
 </section>
 
-<section class="text-center part part_5" id="pFive" style="background:url(http://placehold.it/1700x1400/343434) no-repeat center center;">
+<section class="text-center part part_5" id="pFive" style="background:url(<?php echo get_template_directory_uri(); ?>/assets/img/part1.jpg) no-repeat center center; ">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">

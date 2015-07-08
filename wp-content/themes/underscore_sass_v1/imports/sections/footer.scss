@@ -1,10 +1,7 @@
 footer {
 	  &.site-footer {
-		bottom: 0;
-		width: 100%;
-		height: 5vh;
-		background-color: #fff;
-		padding: 10px 0;
+		
+		border-top: 1px solid #03031e;
 
 		ul {
 			list-style: none;
@@ -22,17 +19,18 @@ footer {
 		}
 	}
 	.site-info {
+		padding: 10px 0;
 		@media (max-width: 768px) {
 			.text-left, .text-right {
 				text-align:center;
 			}
 		}
 	}
-	#menu-footer-nav {
+	#menu-menu-footer {
 		padding: 10px 0;
 		li {
 			a {
-				color: #369dcc;
+				color: #03031e;
 			}
 		}
 	}
