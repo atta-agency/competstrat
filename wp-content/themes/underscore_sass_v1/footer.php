@@ -16,7 +16,7 @@
 				
 				<div class="col-sm-12 text-center">
 					<ul class="list-inline">
-						<li><p>Pour votre santé, évitez de grignoter entre les repas - <a href="http://www.mangerbouger.fr">www.mangerbouger.fr</a></p></li>
+						<li><p>Pour votre santé, évitez de grignoter entre les repas - <a class="food" href="http://www.mangerbouger.fr">www.mangerbouger.fr</a></p></li>
 						<li><p>© KRILL-TONIC - 2015 / </p></li>
 						<li><?php echo wp_nav_menu( array( 'theme_location' => 'secondary' )); ?></li>
 					</ul>

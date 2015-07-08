@@ -5,6 +5,14 @@ Template Name: CMS
 
 get_header();?>
 
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<a class="btn btn-primary backto" href="http://krill-tonic.com">Revenir à l'accueil</a>
+		</div>
+	</div>
+</div>
+
 
 <section role="main" class="content">
 

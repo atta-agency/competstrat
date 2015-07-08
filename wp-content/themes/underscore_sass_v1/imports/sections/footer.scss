@@ -37,4 +37,34 @@ footer {
 	#menu-footer-nav {
 		padding: 0;
 	}
+	a {
+		&.food {
+			color:#aaa;
+		}
+	}
+}
+
+body {
+	&.page-template-cms {
+		footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			background-color: #fff;
+			border:none;
+		}
+		.backto {
+			position: absolute;
+			z-index: 2000;
+			top: 50px;
+			background-color: transparent;
+			border: 1px solid #fff;
+			padding: 10px 20px;
+			border-radius: 0;
+			-webkit-transition: width 0.5s;
+			transition: width 0.5s;
+
+			right: 0;
+		}
+	}
 }

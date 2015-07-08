@@ -154,7 +154,7 @@ get_header();?>
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="newsletter decal-md text-center">
-						<p class="lead">Vivez dès à présent l’aventure Krill Tonic. Réserverz votre place pour la soirée évènement !</p>
+						<p class="lead">Vivez dès à présent l’aventure Krill Tonic. Réservez votre place pour la soirée évènement !</p>
 						<form class="form-inline" action="/" method="POST">
 							<div class="form-group">
 								<input type="email" name="mail" class="form-control" id="exampleInputName2" placeholder="Votre e-mail">
