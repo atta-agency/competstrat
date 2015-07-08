@@ -50,7 +50,7 @@ get_header();?>
 
 <div class="main-background"> <!--MAIN BACKGROUND-->
 
-	<section class="landing_head part">
+	<section class="landing_head part current">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -81,17 +81,17 @@ get_header();?>
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
 					<p class="lead intro">
-						Préparez-vous à l’unicité, à l’ouverture<br/> vers la quintessence, vers une nouvelle forme d’absolu, ...
+						Préparez-vous à l’unicité, à l’ouverture<br/> vers la quintessence, vers une nouvelle forme d’absolu,
 					</p>
 				</div>
-				<div class="scroll_way">
-					<a class="scrollTo" href="#pTwo"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-down.png"></a>
+				<div class="scroll_way_intro">
+					<a class="scrollTo btn btn-primary" href="#pTwo">Entrer</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="text-center part part_1" id="pOne">
+	<section class="text-center part part_1 non_scroll" id="pOne">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -108,7 +108,7 @@ get_header();?>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
-					<p class="lead">
+					<p class="lead fadeIn">
 						celle des eaux rafraîchissantes,<br/> celle des eaux glacées,<br/> celle qui transmettent leurs vertus<br/> jusqu’alors insoupçonnées,
 					</p>
 				</div>
@@ -123,7 +123,7 @@ get_header();?>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<p class="lead">
+					<p class="lead fadeIn">
 						ces vertus propres au grand Nord<br/> ces vertus certes mystérieuses<br/> mais qui vous transporteront
 					</p>
 				</div>
@@ -138,7 +138,7 @@ get_header();?>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<p class="lead">
+					<p class="lead fadeIn">
 						... au coeur d’un périple initiatique<br/> vers un renouveau, le vôtre.
 					</p>
 				</div>
@@ -154,13 +154,13 @@ get_header();?>
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="newsletter decal-md text-center">
-						<p>Pour en savoir plus sur Krill Tonic</p>
+						<p class="lead">Vivez dès à présent l’aventure Krill Tonic. Réserverz votre place pour la soirée évènement !</p>
 						<form class="form-inline" action="/" method="POST">
 							<div class="form-group">
 								<input type="email" name="mail" class="form-control" id="exampleInputName2" placeholder="Votre e-mail">
 								<?php echo $msg ?>
 							</div>
-							<button type="submit" name="envoi" class="btn btn-default">S'abonner</button>
+							<button type="submit" name="envoi" class="btn btn-default">Validez</button>
 						</form>
 
 					</div>
