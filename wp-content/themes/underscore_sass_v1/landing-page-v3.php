@@ -98,7 +98,7 @@ get_header();?>
 					
 				</div>
 			</div>
-			<div class="scroll_way">
+			<div class="scroll_way revealOnScroll" data-animation="fadeIn anim-offset-sm">
 				
 			</div>
 		</div>
@@ -113,8 +113,8 @@ get_header();?>
 					</p>
 				</div>
 			</div>
-			<div class="scroll_way">
-				<a class="scrollTo" href="#pThree"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-down.png"></a>
+			<div class="scroll_way revealOnScroll" data-animation="fadeIn anim-offset-sm">
+				<a class="scrollTo" href="#pThree"></a>
 			</div>
 		</div>
 	</section>
@@ -128,8 +128,8 @@ get_header();?>
 					</p>
 				</div>
 			</div>
-			<div class="scroll_way">
-				<a class="scrollTo" href="#pFoor"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-down.png"></a>
+			<div class="scroll_way revealOnScroll" data-animation="fadeIn anim-offset-sm">
+				<a class="scrollTo" href="#pFoor"></a>
 			</div>
 		</div>
 	</section>
@@ -143,8 +143,8 @@ get_header();?>
 					</p>
 				</div>
 			</div>
-			<div class="scroll_way">
-				<a class="scrollTo" href="#colophon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-down.png"></a>
+			<div class="scroll_way revealOnScroll" data-animation="fadeIn anim-offset-sm">
+				<a class="scrollTo" href="#colophon"></a>
 			</div>
 		</div>
 	</section>
@@ -155,13 +155,13 @@ get_header();?>
 				<div class="col-sm-12">
 					<div class="newsletter decal-md text-center">
 						<div class="form-content">
-							<p class="lead">Vivez dès à présent l’aventure Krill Tonic. Réservez votre place pour la soirée évènement !</p>
+							<p class="lead">Vivez dès à présent l’aventure Krill Tonic.<br/>Réservez votre place pour la soirée évènement !</p>
 							<form class="form-inline" action="/" method="POST">
 								<div class="form-group">
 									<input type="email" name="mail" class="form-control" id="exampleInputName2" placeholder="Votre e-mail">
 									<?php echo $msg ?>
 								</div>
-								<button type="submit" name="envoi" class="btn btn-default">Validez</button>
+								<button type="submit" name="envoi" class="btn btn-default">validez</button>
 							</form>
 						</div>
 					</div>
