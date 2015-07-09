@@ -7,12 +7,8 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$(window).scroll(function (event) {
-	    var scroll = $(window).scrollTop();
-	    $('.fadeIn').addClass('animated');
-	});
 
 
-	
+
 
 });

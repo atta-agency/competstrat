@@ -108,7 +108,7 @@ get_header();?>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
-					<p class="lead fadeIn">
+					<p class="lead revealOnScroll" data-animation="fadeIn anim-offset-sm">
 						celle des eaux rafraîchissantes,<br/> celle des eaux glacées,<br/> celle qui transmettent leurs vertus<br/> jusqu’alors insoupçonnées,
 					</p>
 				</div>
@@ -123,7 +123,7 @@ get_header();?>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<p class="lead fadeIn">
+					<p class="lead revealOnScroll" data-animation="fadeIn anim-offset-sm">
 						ces vertus propres au grand Nord<br/> ces vertus certes mystérieuses<br/> mais qui vous transporteront
 					</p>
 				</div>
@@ -138,7 +138,7 @@ get_header();?>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<p class="lead fadeIn">
+					<p class="lead revealOnScroll" data-animation="fadeIn anim-offset-sm">
 						... au coeur d’un périple initiatique<br/> vers un renouveau, le vôtre.
 					</p>
 				</div>
@@ -154,15 +154,16 @@ get_header();?>
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="newsletter decal-md text-center">
-						<p class="lead">Vivez dès à présent l’aventure Krill Tonic. Réservez votre place pour la soirée évènement !</p>
-						<form class="form-inline" action="/" method="POST">
-							<div class="form-group">
-								<input type="email" name="mail" class="form-control" id="exampleInputName2" placeholder="Votre e-mail">
-								<?php echo $msg ?>
-							</div>
-							<button type="submit" name="envoi" class="btn btn-default">Validez</button>
-						</form>
-
+						<div class="form-content">
+							<p class="lead">Vivez dès à présent l’aventure Krill Tonic. Réservez votre place pour la soirée évènement !</p>
+							<form class="form-inline" action="/" method="POST">
+								<div class="form-group">
+									<input type="email" name="mail" class="form-control" id="exampleInputName2" placeholder="Votre e-mail">
+									<?php echo $msg ?>
+								</div>
+								<button type="submit" name="envoi" class="btn btn-default">Validez</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
