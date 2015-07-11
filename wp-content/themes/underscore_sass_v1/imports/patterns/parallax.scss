@@ -1,0 +1,87 @@
+#parallax {
+		overflow: hidden;
+		min-width: 800px;
+
+
+		section#scrolling {
+			background:url(assets/img/noise.png) #79c5ce;
+			height: 1300px;
+			width: 100%;
+			padding: 200px 0 0 0;
+			position: relative; 
+			z-index:200;
+		}
+
+		article#textkrillpiece-left{
+			margin: 1175px 0 0 90px;
+			width: 310px;
+			opacity: .9;
+			border: 1px #111 solid;
+			outline: 10px #fff solid;
+		}
+	
+		article#textkrillpiece-right {
+			margin: 2100px 0 0 290px;
+			width: 320px;
+			opacity: .9;
+			padding: 20px 15px;
+			border: 1px #111 solid;
+			outline: 10px #fff solid;
+		}
+
+			#cloud1 {
+	position: absolute;
+	top: 350px; 
+	right: -20px;
+	}
+	
+	#cloud2 {
+	position: absolute;
+	top: 500px;
+	left: -400px;
+	}
+	
+	#cloud3 {
+	position: absolute;
+	top: 590px;
+	left: -130px;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);}
+	
+	#cloud4 {
+	position: absolute;
+	top: 420px;
+	right: 50px;}
+	
+	#cloud5 {
+	position: absolute;
+	top: 775px;
+	right: -300px;}
+	
+	#cloud6 {
+	position: absolute;
+	top: 1550px;
+	left: 150px;}
+	
+	#cloud7 {
+	position: absolute;
+	top: 1050px;
+	right: 20px;
+	-webkit-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);}
+	
+	#cloud8 {
+	position: absolute;
+	top: 1800px;
+	left: 350px;}
+	
+	#cloud9 {
+	position: absolute;
+	top: 2500px;
+	right: 10px;}
+
+}
