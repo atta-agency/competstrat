@@ -92,9 +92,9 @@
 	&:focus{}	
 }
 .navbar-fixed-top{
-	top: 20px;
 	-webkit-transition: width 2s; /* Safari */
     transition: width 2s;
+    padding:15px 0;
 }
 .navbar-static-top{}
 .navbar-fixed-bottom{}
