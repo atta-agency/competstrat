@@ -27,8 +27,37 @@ input[type="tel"] {}
 input[type="color"] {}
 .uneditable-input {}
 
-.form-group{}
-.form-control{}
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+.form-group{
+	margin: 5px 0;
+	&.btn-block {
+		width: 100%;
+	}
+}
+.form-control{
+	background-color: transparent;
+	border:1px solid $color-0;
+	color: $color-0;
+	border-radius: 0;
+	margin: 5px 0;
+	&.btn-block {
+		width: 100%;
+	}
+}
 .form-control-feedback {}
 
 .form-inline{

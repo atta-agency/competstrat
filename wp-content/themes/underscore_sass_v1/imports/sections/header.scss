@@ -12,7 +12,7 @@ header {
 	}
 
 	&.headroom--not-top {
-		&.headroom--unpinned {
+		&.headroom--unpinned, &.headroom--pinned {
 
 			.navbar-brand {
 				background: url(assets/img/logo-nav-alt.png);

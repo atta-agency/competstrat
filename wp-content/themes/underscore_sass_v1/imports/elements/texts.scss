@@ -1,4 +1,16 @@
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  { 
+
+	font-family: $custom-font;
+		color: $primary-color;
+	
+	&.special_title {
+		font-family: $custom-font;
+		color: $primary-color;
+		border-bottom: 1px solid $primary-color;
+		display: inline-block;
+		padding-bottom: 15px;
+  		margin-bottom: 15px;
+	}
 	a{
 		&:hover{} 
 	}
@@ -14,6 +26,7 @@ h2, .h2 {
 	}
 }
 h3, .h3 {
+	font-size: 36px;
 	a{
 		&:hover{} 
 	}

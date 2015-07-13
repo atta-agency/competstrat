@@ -18,6 +18,6 @@ get_header();?>
 
 <?php include (TEMPLATEPATH . '/includes/home_club.php'); ?>
 
-<?php include (TEMPLATEPATH . '/includes/home_contact.php'); ?>
+<?php /* include (TEMPLATEPATH . '/includes/home_contact.php'); */?>
 
 <?php get_footer(); ?>

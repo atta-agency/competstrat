@@ -1,5 +1,5 @@
 <div class="distribution-map">
-    <img src="http://i.imgur.com/M7aUkuS.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/map.jpg">
     <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
     <button class="map-point" style="top:15%;left:35%">
         <div class="content">

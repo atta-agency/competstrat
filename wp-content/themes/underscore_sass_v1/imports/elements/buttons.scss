@@ -27,12 +27,12 @@
 	&:focus{}
 }
 .btn-primary {
-	background-color: #FF0000; 
+	background-color: $secondary-color; 
 	border: none; 
 	color: #fff;
-
+	padding: 5px 50px;
 	&:hover{
-		background-color: #333; 
+		background-color: darken($secondary-color,20%); 
 		border: none; 
 		color: #fff;
 	}

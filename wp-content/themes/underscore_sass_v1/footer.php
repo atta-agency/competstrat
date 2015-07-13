@@ -13,24 +13,55 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<div class="container">
-				
-				<div class="col-sm-12 text-center">
-					<ul class="list-inline">
-						<li><p>Pour votre santé, évitez de grignoter entre les repas - <a class="food" href="http://www.mangerbouger.fr">www.mangerbouger.fr</a></p></li>
-						<li><p>© KRILL-TONIC - 2015 / </p></li>
-						<li><?php echo wp_nav_menu( array( 'theme_location' => 'secondary' )); ?></li>
-					</ul>
-					
-					
-				</div>
-				<!--<div class="col-sm-4 text-right">
-					<ul class="social-list list-unstyled list-inline">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-google"></i></a></li>
-					</ul>
-				</div>-->
+				<div class="row">
+          <div class="col-sm-8">
+            <div class="logo_footer">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-footer.png">
+              </div>
+
+              <div class="list_social_footer">
+                <ul class="list-unstyled">
+                  <li><small>5 rue Saint-Augustin</small></li>
+                  <li><small>75002 Paris</small></li>
+                  <li><small><i class="fa fa-phone"></i> +33 (0)1 00 00 00 00</small></li>
+                  <li><small><i class="fa fa-envelope"></i> krilltonic@gmail.com</small></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="col-sm-4">
+              <ul class="list-unstyled list-inline social-list">
+                <li>
+                  <a href="">
+                    <i class="fa fa-facebook"></i><br/>
+                    <p>facebook</p>
+                  </a>
+                </li> 
+                <li>
+                  <a href="">
+                    <i class="fa fa-twitter"></i><br/>
+                    <p>facebook</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa fa-youtube"></i><br/>
+                    <p>Youtube</p>
+                  </a>
+                </li>      
+              </ul>
+          </div>
+        </div>
 			</div>
+      <hr/>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <?php echo wp_nav_menu( array( 'theme_location' => 'secondary' )); ?>
+            <p>Pour votre santé, évitez de grignoter entre les repas - <a href="http://www.mangerbouger.fr">www.mangerbouger.fr</a></p>
+          </div>
+        </div>
+      </div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
