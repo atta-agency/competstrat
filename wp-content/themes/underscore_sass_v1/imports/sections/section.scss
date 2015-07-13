@@ -2,4 +2,18 @@ section {
 	&.home_description {
 		
 	}
+	&.video {
+		text-align: center;
+		
+		.home_logo {
+			margin-top: 200px;
+		}
+		.top_parallax {
+			position: absolute;
+			left: 50%;
+			width: 122px;
+			margin-left: -61px;
+			bottom: 0;
+		}
+	}
 }

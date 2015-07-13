@@ -52,6 +52,7 @@
 		.nav {
 			> li {
 				> a {
+					font-family: $primary-font;
 					&:hover {}
 					&:focus{}
 				}
@@ -66,13 +67,35 @@
 	}
 }
 
+.navbar-nav {
+	@media (min-width: 768px) {
+		float:right;
+	}
+	> li {
+		> a {
+			font-family: $primary-font;
+			font-weight: 300;
+			text-transform: uppercase;
+			font-size: 16px;
+
+			&:hover {
+				background:transparent;
+			}
+		}
+	}	
+}
+
 .navbar-header{}
 .navbar-collapse{}
 .navbar-toggle{
 	&:hover{}
 	&:focus{}	
 }
-.navbar-fixed-top{}
+.navbar-fixed-top{
+	top: 20px;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
 .navbar-static-top{}
 .navbar-fixed-bottom{}
 

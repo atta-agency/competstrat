@@ -9,6 +9,8 @@ $(document).ready(function() {
 
 
 
-
+	$(window).scroll(function(){
+		$("#test").addClass('animated');
+	});
 
 });
