@@ -62,7 +62,6 @@
 		            <li class="scrollTo"><a href="#parallax">La boisson</a></li>
 		            <li class="scrollTo"><a href="#about">La réalisation</a></li>
 		            <li class="scrollTo"><a href="#contact">Le krill</a></li>
-		            <li class="scrollTo"><a href="#contact">Le krill</a></li>
 		            <li class="scrollTo"><a href="#contact">La campagne</a></li>
 		            <li class="scrollTo"><a href="#contact">Contact</a></li>
 		          </ul>
