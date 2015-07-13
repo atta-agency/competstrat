@@ -22,17 +22,7 @@ footer {
 		.logo_footer {
 			padding: 13px 0;
 		}
-		.bordered {
-			
-			display: block;
-			height: 100px;
-			&.bottom {
-				border-bottom: 1px solid darken($primary-color,20%);
-			}
-			&.right {
-				border-right: 1px solid darken($primary-color,20%);
-			} 
-		}
+		
 		.social-list {
 			width: 100%;
 			margin: 0;
@@ -58,15 +48,17 @@ footer {
 					margin: 0;
 				}
 
-				&:nth-child(1) {
-					border-left:1px solid $alternate-color;
-				}
-				&:nth-child(2) {
-					border-left:1px solid $alternate-color;
-					border-right:1px solid $alternate-color;
-				}
-				&:nth-child(3) {
-					border-right:1px solid $alternate-color;
+				@media(min-width: 768px) {
+					&:nth-child(1) {
+						border-left:1px solid $alternate-color;
+					}
+					&:nth-child(2) {
+						border-left:1px solid $alternate-color;
+						border-right:1px solid $alternate-color;
+					}
+					&:nth-child(3) {
+						border-right:1px solid $alternate-color;
+					}
 				}
 			}
 		}

@@ -13,7 +13,12 @@ header {
 
 	&.headroom--not-top {
 		&.headroom--unpinned, &.headroom--pinned {
-
+			.navbar-toggle {
+				border-color:$color-0;
+			}
+			.icon-bar{
+				background-color: $color-0;
+			}
 			.navbar-brand {
 				background: url(assets/img/logo-nav-alt.png);
 				width: 78px;

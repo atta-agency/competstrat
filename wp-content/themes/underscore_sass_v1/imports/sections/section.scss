@@ -21,13 +21,15 @@ section {
 		min-height: 623px;
 		padding: 40px 0;
 		.cadre {
-			background: url(assets/img/cadre-home-description.png) center center no-repeat;
-			width: 964px;
-			height: 623px;
-			margin: 0 auto;
-			padding: 140px 40px 0;
 			color: $color-0;
-			margin-bottom: 150px;
+			@media (min-width: 990px) {
+				background: url(assets/img/cadre-home-description.png) center center no-repeat;
+				width: 964px;
+				height: 623px;
+				margin: 0 auto;
+				padding: 140px 40px 0;
+				margin-bottom: 150px;
+			}
 			h2 {
 				font-family: $custom-font;
 				text-align: center;
