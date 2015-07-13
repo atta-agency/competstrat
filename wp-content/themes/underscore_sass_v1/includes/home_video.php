@@ -11,30 +11,24 @@
 			<ul class="list-unstyled thumbs_video_list">
 				<li class="col-sm-6 col-sm-offset-3 text-center">
 					<h4>Le mensonge</h4>
-					<video>
-					  <source src="video.mp4" type="video/mp4" />
-					  <source src="video.webm" type="video/webm" />
-					  <source src="video.ogv" type="video/ogg" />
+					<video class="video-js vjs-default-skin" controls preload="auto" width="100%" height="300" data-setup='{"example_option":true}'>
+					  <source src="<?php echo get_template_directory_uri(); ?>/assets/video/video.mp4" type="video/mp4" />
 					</video>
 					
 				</li>
 
 				<li class="col-sm-6 col-sm-offset-3 text-center">
 					<h4>L'insatisfaction</h4>
-					<video>
-					  <source src="video.mp4" type="video/mp4" />
-					  <source src="video.webm" type="video/webm" />
-					  <source src="video.ogv" type="video/ogg" />
+					<video class="video-js vjs-default-skin" controls preload="auto" width="100%" height="300" data-setup='{"example_option":true}'>
+					  <source src="<?php echo get_template_directory_uri(); ?>/assets/video/video.mp4" type="video/mp4" />
 					</video>
 					
 				</li>
 
 				<li class="col-sm-6 col-sm-offset-3 text-center">
 					<h4>L'attente</h4>
-					<video>
-					  <source src="video.mp4" type="video/mp4" />
-					  <source src="video.webm" type="video/webm" />
-					  <source src="video.ogv" type="video/ogg" />
+					<video class="video-js vjs-default-skin" controls preload="auto" width="100%" height="300" data-setup='{"example_option":true}'>
+					  <source src="<?php echo get_template_directory_uri(); ?>/assets/video/video.mp4" type="video/mp4" />
 					</video>
 					
 				</li>

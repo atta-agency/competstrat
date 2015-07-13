@@ -57,6 +57,7 @@ section {
 				video {
 					max-width: 100%;
 					width: 100%;
+					margin-bottom: 20px;
 				}
 			}
 		}
@@ -78,7 +79,10 @@ section {
 			}
 		}
 		form {
-			max-width: 350px;
+			
+			@media(min-width: 768px){
+				max-width: 350px;
+			}
 
 			button {
 				float: right;
