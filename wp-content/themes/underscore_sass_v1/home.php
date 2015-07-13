@@ -8,9 +8,9 @@ get_header();?>
 
 <?php include (TEMPLATEPATH . '/includes/home_motion.php'); ?>
 
-<?php include (TEMPLATEPATH . '/includes/home_description.php'); ?>
-
 <?php include (TEMPLATEPATH . '/includes/home_parallax.php'); ?>
+
+<?php include (TEMPLATEPATH . '/includes/home_description.php'); ?>
 
 <?php include (TEMPLATEPATH . '/includes/home_map.php'); ?>
 
