@@ -1,4 +1,4 @@
-<section class="home_video">
+<section class="home_video" id="home_video">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3 text-center">

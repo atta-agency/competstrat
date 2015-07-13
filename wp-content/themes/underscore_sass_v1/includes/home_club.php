@@ -1,4 +1,4 @@
-<section class="home_club">
+<section class="home_club" id="home_club">
 
 	<div class="container">
 		<img class="club_banner" src="<?php echo get_template_directory_uri(); ?>/assets/img/le-club.png">

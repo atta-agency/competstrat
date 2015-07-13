@@ -1,4 +1,4 @@
-<section class="home_description">
+<section class="home_description" id="home_description">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">

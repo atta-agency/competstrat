@@ -59,11 +59,11 @@
 		        </div>
 		        <div id="navbar" class="collapse navbar-collapse">
 		          <ul class="nav navbar-nav">
-		            <li class="scrollTo"><a href="#parallax">La boisson</a></li>
-		            <li class="scrollTo"><a href="#about">La réalisation</a></li>
-		            <li class="scrollTo"><a href="#contact">Le krill</a></li>
-		            <li class="scrollTo"><a href="#contact">La campagne</a></li>
-		            <li class="scrollTo"><a href="#contact">Contact</a></li>
+		            <li><a class="scrollTo" href="#parallax">La boisson</a></li>
+		            <li><a class="scrollTo" href="#about">La réalisation</a></li>
+		            <li><a class="scrollTo" href="#home_description">Le krill</a></li>
+		            <li><a class="scrollTo" href="#home_video">La campagne</a></li>
+		            <li><a class="scrollTo" href="#home_club">Contact</a></li>
 		          </ul>
 		        </div><!--/.nav-collapse -->
 		      </div>

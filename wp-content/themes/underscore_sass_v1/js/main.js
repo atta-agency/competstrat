@@ -13,4 +13,8 @@ $(document).ready(function() {
 		$("#test").addClass('revealOnScroll');
 	});
 
+	$( "#navbar .scrollTo" ).click(function() {
+	  $(this).addClass('active');
+	});
+
 });
