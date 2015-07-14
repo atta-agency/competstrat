@@ -72,7 +72,7 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/headroom.min.js"></script>
-
+<script src="<?php echo get_template_directory_uri(); ?>/js/parallax.js"></script>
 
 <script type="text/javascript">
   // grab an element

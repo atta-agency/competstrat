@@ -1,35 +1,27 @@
-#parallax {
-		overflow: hidden;
-		min-width: 800px;
+
+figure#drop {
+position: fixed;
+top: 380px;
+left: 50%;
+margin-left:-36px;
+z-index:201;
+}
 
 
-		section#scrolling {
-			background:url(assets/img/noise.png) #79c5ce;
-			height: 1300px;
-			width: 100%;
-			padding: 200px 0 0 0;
-			position: relative; 
-			z-index:200;
-		}
+/* 1. Sky */
 
-		article#textkrillpiece-left{
-			margin: 1175px 0 0 90px;
-			width: 310px;
-			opacity: .9;
-			border: 1px #111 solid;
-			outline: 10px #fff solid;
-		}
-	
-		article#textkrillpiece-right {
-			margin: 2100px 0 0 290px;
-			width: 320px;
-			opacity: .9;
-			padding: 20px 15px;
-			border: 1px #111 solid;
-			outline: 10px #fff solid;
-		}
+section#sky {
+background:url(assets/img/noise.png) #FFFFFF;
+height: 1393px;
+width: 100%;
 
-			#cloud1 {
+position: relative; 
+z-index:200;
+}
+
+
+
+	#cloud1 {
 	position: absolute;
 	top: 350px; 
 	right: -20px;
@@ -84,4 +76,65 @@
 	top: 2500px;
 	right: 10px;}
 
+/* 2. Highway */
+	
+section#highway {
+position: relative;
+background: #8ba341 url(assets/img/noise.png);
+height: 3400px;
+width: 100%;
+padding-top: 800px;
 }
+
+	article#texttrucks {
+	margin: 0 0 0 90px;
+	width: 310px;
+	opacity: .9;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+	article#texttrucks2 {
+	margin: 0 0 0 100px;
+	width: 320px;
+	opacity: .9;
+	padding: 20px 15px;
+	border: 1px #111 solid;
+	outline: 10px #fff solid;
+	}
+	
+
+	
+		
+		#clouda {
+		position: absolute;
+		top: 500px; 
+		left: 50%;
+		margin-left: 300px;
+		z-index: 300;
+		}
+		
+		#cloudb {
+		position: absolute;
+		top: 650px;
+		left: 50%;
+		margin-left: -300px;
+		z-index:300;
+		}
+		
+		#cloudc {
+		position: absolute;
+		top: 250px;
+		left: 50%;
+		margin-left: -900px;
+		z-index: 300;
+		}
+		
+		#cloudc2 {
+		position: absolute;
+		top: 700px;
+		left: 50%;
+		margin-left: -50px;
+		z-index: 300;
+		}
+	

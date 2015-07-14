@@ -1,4 +1,4 @@
-<section class="video">
+<section class="video" id="video">
 
 	<?php /*<video id="video" autoplay muted poster="http://placehold.it/1400x400">
     	<source src="<?php echo get_template_directory_uri(); ?>/assets/video/video.mp4" type="video/mp4">
