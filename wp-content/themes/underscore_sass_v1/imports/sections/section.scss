@@ -19,6 +19,7 @@ section {
 	}
 	&.home_description {
 		background: url(assets/img/bg-home-description.jpg) center center no-repeat;
+		@include background-size(cover);
 		min-height: 623px;
 		padding: 40px 0;
 		.cadre {
@@ -65,6 +66,7 @@ section {
 	}
 	&.home_club {
 		background: url(assets/img/bg-club.jpg) 50% 50% no-repeat;
+		@include background-size(cover);
 		padding: 180px 0;
 		height: 753px;
 		position: relative;
