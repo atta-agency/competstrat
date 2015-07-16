@@ -1,6 +1,11 @@
+#video{
+	width: 100%;
+}
+
 .video {
 	height: 100vh;
 	@include background-size(cover);
+
 }
 
 .vjs-default-skin {
