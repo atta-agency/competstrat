@@ -14,6 +14,6 @@
 		</div>
     </div>
    
-
+    <?php /*<img class="top_parallax" data-animation="fadeOut anim-offset-xs" id="test" src="<?php echo get_template_directory_uri(); ?>/assets/img/krill-piece.png">*/ ?>
 
 </section>

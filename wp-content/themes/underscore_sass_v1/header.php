@@ -45,7 +45,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<div id="content" class="site-content">
-		<header class="headroom animated">
+		<header class="header headroom animated">
 			<nav class="navbar navbar-fixed-top">
 		      <div class="container">
 		        <div class="navbar-header">
