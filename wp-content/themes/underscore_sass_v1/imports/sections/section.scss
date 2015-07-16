@@ -4,7 +4,8 @@ section {
 	}
 	&.video {
 		text-align: center;
-		
+		background: url(http://placehold.it/1700x1400) center center no-repeat;
+		@include background-size(cover);
 		.home_logo {
 			margin-top: 200px;
 		}
