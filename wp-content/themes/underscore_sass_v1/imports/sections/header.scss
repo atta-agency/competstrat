@@ -4,12 +4,7 @@ header {
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
-	&.header {
-		//opacity: 0;
-		&.visible-header {
-			opacity: 1;
-		}
-	}
+
 	.navbar-fixed-top {
 		background: #000;
 		border-bottom: 1px solid #fff;
@@ -21,6 +16,44 @@ header {
 		width: 78px;
 		height: 39px;
 	}
+	&.header {
+		//opacity: 0;
+		&.visible-header {
+			opacity: 1;
+			.navbar-fixed-top {
+				background-color: #ffffff;
+				border-bottom: 1px solid #000;
+
+				.nav {
+					> li {
+						> a {
+							color: #000;
+							font-weight: 300;
+							&.hot {
+								background-color: $red;
+								color: #fff;
+								&:hover {
+									background-color:darken($red, 10%);
+								}
+							}
+							&:hover {}
+							&:focus{}
+						}
+						&.active {
+							a {
+								&:hover {}
+								&:focus{}
+							}
+						}
+					}
+				}
+				.navbar-brand {
+					background: url(assets/img/logo-nav.png);
+				}
+			}
+		}
+	}
+	
 
 	&.headroom--not-top {
 		&.headroom--unpinned, &.headroom--pinned {
@@ -32,25 +65,7 @@ header {
 			}
 			
 
-			.navbar-fixed-top {
-				padding: 0;
-				background: #000000;
-				-webkit-transition: all 0.5s ease;
-				-moz-transition: all 0.5s ease;
-				-ms-transition: all 0.5s ease;
-				-o-transition: all 0.5s ease;
-				transition: all 0.5s ease;
-				.navbar-nav {
-					@media (min-width: 768px) {
-						float:right;
-					}
-					> li {
-						> a {
-							
-						}
-					}	
-				}
-			}
+			
 		}
 	}
 

@@ -1,15 +1,17 @@
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  { 
 
-	font-family: $custom-font;
+	font-family: 'bebas', sans-serif;
 		color: $primary-color;
 	
 	&.special_title {
-		font-family: $custom-font;
-		color: $primary-color;
-		border-bottom: 1px solid $primary-color;
-		display: inline-block;
-		padding-bottom: 15px;
-  		margin-bottom: 15px;
+		font-size: 80px;
+
+		&:before {
+			content:url(assets/img/line.png);
+			position: absolute;
+			top: 23px;
+			width: 60px;
+		}
 	}
 	a{
 		&:hover{} 
