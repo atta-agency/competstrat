@@ -1,3 +1,9 @@
 <section id="section_3" class="home_puissance">
-	<h1>LA PUISSANCE</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>La puissance</h1>
+			</div>
+		</div>
+	</div>
 </section>
