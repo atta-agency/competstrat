@@ -1,4 +1,4 @@
-<section id="home_introduction" class="intro">
+<section id="section_1" class="home_intro">
 
 <h1>INTRODUCTION</h1>
 
