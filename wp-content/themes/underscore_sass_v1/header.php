@@ -48,24 +48,29 @@
 		<header class="header headroom animated">
 			<nav class="navbar navbar-fixed-top">
 		      <div class="container">
-		        <div class="navbar-header">
-		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		          </button>
-		          <a class="navbar-brand" href="#"></a>
+		        <div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="navbar-header">
+				          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				          </button>
+				          <a class="navbar-brand" href="#"></a>
+				        </div>
+				        <div id="navbar" class="collapse navbar-collapse">
+				          <ul class="nav navbar-nav">
+				            <li><a class="scrollTo" href="#parallax">Accueil</a></li>
+				            <li><a class="scrollTo" href="#about">Art de vivre</a></li>
+				            <li><a class="scrollTo" href="#home_description">La puissance</a></li>
+				            <li><a class="scrollTo" href="#home_video">L'histoire</a></li>
+				            <li><a class="scrollTo hot" href="#home_club">Pré-commandez</a></li>
+				             <li><a class="scrollTo" href="#home_club">Le club</a></li>
+				          </ul>
+				        </div><!--/.nav-collapse -->
+					</div>
 		        </div>
-		        <div id="navbar" class="collapse navbar-collapse">
-		          <ul class="nav navbar-nav">
-		            <li><a class="scrollTo" href="#parallax">La boisson</a></li>
-		            <li><a class="scrollTo" href="#about">La réalisation</a></li>
-		            <li><a class="scrollTo" href="#home_description">Le krill</a></li>
-		            <li><a class="scrollTo" href="#home_video">La campagne</a></li>
-		            <li><a class="scrollTo" href="#home_club">Contact</a></li>
-		          </ul>
-		        </div><!--/.nav-collapse -->
 		      </div>
 		    </nav>
 		</header>
