@@ -2,7 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1>INTRODUCTION</h1>
+                <h1>INTRODUCTION</h1>
+               
 				<div class="scroll_way revealOnScroll" data-animation="fadeIn anim-offset-sm">
 					<a class="scrollTo" href="#parallax"></a>
 				</div>
