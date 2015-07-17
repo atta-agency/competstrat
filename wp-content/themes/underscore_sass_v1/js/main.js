@@ -30,5 +30,5 @@ $(document).ready(function() {
 	        $(".header").removeClass("visible-header");
 	    }
 	}); //missing );
-
+	
 });
