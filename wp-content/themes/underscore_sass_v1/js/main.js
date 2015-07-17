@@ -21,11 +21,11 @@ $(document).ready(function() {
 	    var scroll = $(window).scrollTop();
 
 	     //>=, not <=
-	    if (scroll >= 200) {
+	    if (scroll >= 750) {
 	        //clearHeader, not clearheader - caps H
 	        $(".header").addClass("visible-header");
 	    }
-	    if (scroll < 200) {
+	    if (scroll < 750) {
 	        //clearHeader, not clearheader - caps H
 	        $(".header").removeClass("visible-header");
 	    }
