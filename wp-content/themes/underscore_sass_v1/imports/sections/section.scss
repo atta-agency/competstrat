@@ -73,6 +73,13 @@ section {
 			position: absolute;
 			right: 0;
 			bottom: 0;
+
+			@media (max-width: 990px) {
+				display:none;
+			}
+			@media (max-width: 1200px) {
+				width:60%;
+			}
 		}
 	}
 	&.home_puissance {
@@ -140,6 +147,10 @@ section {
 			position: absolute;
 			right: 18%;
   			bottom: 100px;
+
+  			@media (max-width: 768px) {
+				display:none;
+			}
   		}
 	}
 	&.home_video {

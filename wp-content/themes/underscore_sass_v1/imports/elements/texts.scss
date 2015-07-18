@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
 			position: absolute;
 			top: 23px;
 			width: 60px;
+
+			@media (max-width: 768px) {
+				display:none;
+			}
 		}
 	}
 	a{
