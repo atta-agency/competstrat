@@ -14,6 +14,8 @@ get_header();?>
 
 <?php include (TEMPLATEPATH . '/includes/home_la_boisson.php'); ?>
 
+<?php include (TEMPLATEPATH . '/includes/home_ingredients.php'); ?>
+
 <?php include (TEMPLATEPATH . '/includes/home_realisation.php'); ?>
 
 <?php include (TEMPLATEPATH . '/includes/home_fiche_produit.php'); ?>
