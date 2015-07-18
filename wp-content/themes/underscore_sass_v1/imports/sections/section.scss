@@ -113,6 +113,35 @@ section {
 			}
 		}
 	}
+	&.home_boisson {
+		background: #eae8e9;
+		padding: 40px 0;
+		position: relative;
+		
+		@media (min-width: 768px) {
+			height:100vh;
+		}
+		p {
+			  font-size: 25px;
+
+			  small {
+			  	font-size: 18px;
+				margin-top: 50px;
+				display: inline-block;
+			  }
+		}
+		h2 {
+			margin-top: 160px;
+			&:before {
+				top:53px;
+			}
+		}
+		.package {
+			position: absolute;
+			right: 18%;
+  			bottom: 100px;
+  		}
+	}
 	&.home_video {
 		padding:80px 0;
 
