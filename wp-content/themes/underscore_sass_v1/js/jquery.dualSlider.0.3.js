@@ -1,21 +1,3 @@
-/**
-* jQuery.fn.dualSlider - Dual sliders, why not?
-* Date: June 2010
-*
-* @author Rob Phillips http://www.robertjamesphillips.com (Front End Developer - Hugo & Cat - http://www.hugoandcat.com)
-* @version 0.3
-* @web http://www.hugoandcat.com/DualSlider/index.html
-*
-* Requirements:
-* jquery.1.3.2.js - http://jquery.com/
-* jquery.easing.1.3.js - http://gsgd.co.uk/sandbox/jquery/easing/
-* jquery.timers-1.2.js - http://plugins.jquery.com/project/timers
-*
-* 0.2 - Tested and fixed for IE6+, auto loops, manual pause/play controls
-*     - Disabled buttons until animation finishes - Thanks for the bug John.
-* 0.3 - Now with a seamless loop, instead of that nasty rewind...was 'too much' apparently
-*
-**/
 
 
 (function($) {
