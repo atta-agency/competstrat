@@ -1,6 +1,22 @@
 @font-face {
     font-family: bebas;
-    src: url(assets/fonts/BebasNeue.otf);
+    src: url(assets/fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: bebas-thin;
+    src: url(assets/fonts/BebasNeue-Thin.otf);
+}
+@font-face {
+    font-family: bebas-light;
+    src: url(assets/fonts/BebasNeue-Light.otf);
+}
+@font-face {
+    font-family: bebas-book;
+    src: url(assets/fonts/BebasNeue-Book.otf);
+}
+@font-face {
+    font-family: bebas-bold;
+    src: url(assets/fonts/BebasNeue-Bold.otf);
 }
 html {
 	

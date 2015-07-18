@@ -1,7 +1,11 @@
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  { 
 
-	font-family: 'bebas', sans-serif;
+	font-family: 'bebas-light', sans-serif;
 		color: $primary-color;
+
+	strong {
+		font-family: 'bebas', sans-serif;
+	}
 	
 	&.special_title {
 		font-size: 80px;
