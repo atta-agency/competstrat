@@ -73,6 +73,13 @@ section {
 			position: absolute;
 			right: 0;
 			bottom: 0;
+
+			@media (max-width: 990px) {
+				display:none;
+			}
+			@media (max-width: 1200px) {
+				width:60%;
+			}
 		}
 	}
 	&.home_puissance {
@@ -111,6 +118,63 @@ section {
 					margin:0;
 				}
 			}
+		}
+	}
+	&.home_boisson {
+		background: #eae8e9;
+		padding: 40px 0;
+		position: relative;
+		
+		@media (min-width: 768px) {
+			height:100vh;
+		}
+		p {
+			  font-size: 25px;
+
+			  small {
+			  	font-size: 18px;
+				margin-top: 50px;
+				display: inline-block;
+			  }
+		}
+		h2 {
+			margin-top: 160px;
+			&:before {
+				top:53px;
+			}
+		}
+		.package {
+			position: absolute;
+			right: 18%;
+  			bottom: 100px;
+
+  			@media (max-width: 768px) {
+				display:none;
+			}
+  		}
+	}
+	&.home_ingredients {
+		background-color: $primary-color;
+		padding-bottom: 50px;
+		.special_title {
+			margin-top: 155px;
+			color: #fff;
+
+			&:before {
+				left:50%;
+				margin-left: -30px;
+				content:url(assets/img/line-alt.png);
+			}
+		}
+		p {
+			
+			font-size: 25px;
+			margin: 20px 0 60px;
+			color: #fff;
+			&.catch {
+				margin-top: 200px;
+			}
+			
 		}
 	}
 	&.home_video {

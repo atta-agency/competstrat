@@ -2,9 +2,13 @@
 	<div class="container">
 		<div class="row">
 
+
 			<div class="col-sm-12">
 				
 			<div class="col-sm-6">
+
+			<div class="col-sm-8 col-md-6">
+
 				<h2 class="special_title">
 				L'art de vivre<br/>
 				<strong>Krill Tonic</strong>	
