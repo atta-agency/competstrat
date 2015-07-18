@@ -1,16 +1,20 @@
 .scroll_way {
-  margin-top: 20px;
-  display: inline-block;
-  text-align: center;
-  margin-top: 40px;
-  position: absolute;
+	margin-top: 20px;
+	display: inline-block;
+	width: 300px;
+	left: 50%;
+	margin-left:-150px;
+	text-align: center;
+	margin-top: 40px;
+	position: absolute;
+	bottom: 30px;
 
   a {
 	width: 50px;
 	height: 50px;
 	padding: 13px 15px;
 	color: #fff;
-	background: url(assets/img/push-blue.svg) no-repeat;
+	background: url(assets/img/push.svg) no-repeat;
 	background-size: 100%;
 	display: inline-block;
 	text-align: center;

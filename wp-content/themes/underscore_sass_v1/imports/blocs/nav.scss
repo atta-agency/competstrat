@@ -45,6 +45,7 @@
 
 .navbar {
 	.navbar-brand {
+		margin-top: 8px;
 		@media (max-width: 768px) {
 			margin-left:15px;
 		}
@@ -73,6 +74,7 @@
 .navbar-nav {
 	@media (min-width: 768px) {
 		float:right;
+		margin-top: 8px;
 	}
 	@media (max-width: 768px) {
 		text-align:center;
@@ -82,8 +84,17 @@
 		> a {
 			font-family: $primary-font;
 			font-weight: 300;
-			text-transform: uppercase;
 			font-size: 16px;
+			color: #ffffff;
+			padding: 7px 20px 10px;
+
+			&.hot {
+				background-color: $red;
+
+				&:hover {
+					background-color:darken($red, 10%);
+				}
+			}
 
 			&.active {
 				&:before {
@@ -105,7 +116,13 @@
 }
 
 .navbar-header{}
-.navbar-collapse{}
+.navbar-collapse{
+	&.collapse {
+		@media (min-width: 768px) {
+			height:55px !important;
+		}
+	}
+}
 .navbar-toggle{
 	border-color: $primary-color;
 	&:hover{}

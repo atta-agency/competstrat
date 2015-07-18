@@ -1,0 +1,154 @@
+/* CAROUSEL */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+.wrapper {
+    
+    font-size: 1.2em;
+    width: 100%;
+    margin: auto;
+    text-align:left
+}
+
+.carousel{
+    margin:  0 0 25px 0;
+    position:relative;
+    height: 660px;
+    max-width: 1200px;
+    overflow:hidden;    
+}
+
+.carousel h2{
+	color: #000;
+}	
+
+
+.carousel .backgrounds{
+    height: 660px;
+    margin-left:0px;
+}
+
+.carousel .backgrounds .item{
+    width: 1030px;
+    height: 660px;
+    float:left;
+    position:relative;
+    z-index:1;
+}
+
+.carousel .backgrounds .item_1{
+    background: transparent url(assets/img/image-1.jpg) no-repeat 0 0;
+}
+
+.carousel .backgrounds .item_2{
+    background: transparent url(assets/img/image-2.jpg) no-repeat 0 0;
+}
+
+.carousel .backgrounds .item_3{
+    background: transparent url(assets/img/image-3.jpg) no-repeat 0 0;
+    margin-left: 85px;
+}
+
+.carousel .panel{
+    background: #FFF;
+    color: #000;
+    position:absolute;
+    right: 0;
+    top:0;
+    height: 660px;
+    width: 425px;
+    z-index:10;
+}
+
+.carousel .panel .paging{
+    position:absolute;
+    bottom: 25px;
+    left:25px;
+    width: 225px;    
+    text-align:center;   
+}
+
+.carousel .panel .paging a{
+    color: #4c4c4c;
+    font-size: 1.1em;
+}
+
+
+.carousel .panel .paging .next{
+    position:absolute;
+    right:0;
+    bottom:0;
+    display:block;
+    width: 17px;
+    height: 30px;
+    background: transparent url(assets/img/carousel_next_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging .previous{
+    position:absolute;
+    left:0;
+    bottom:0;
+    display:block;
+    width: 17px;
+    height: 30px;
+    background: transparent url(assets/img/carousel_previous_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging #numbers a {
+    padding: 0 5px 0 5px;
+}
+
+.carousel .panel .paging #numbers a.selected {
+    color: #000;
+}
+
+
+
+.carousel .panel .details_wrapper {
+    position:absolute;
+    top:20px;
+    left:25px;
+    width: 225px;
+    overflow:hidden;
+    height: 200px;
+}
+
+.carousel .panel .details_wrapper .details{
+    height: 200px;
+}
+
+.carousel .panel .details_wrapper .details .detail{
+    width: 225px;
+    height: 200px;
+    float:left;
+    
+}
+
+.carousel .panel .details_wrapper .details h2{
+    font-size: 1.9em;
+    line-height: 1.2em;
+    margin: 0 0 5px 0;
+}
+
+.carousel .panel .details_wrapper .details a.more{
+    color: #fff;
+    font-size:1.1em;
+}   
+
+/* END CAROUSEL */
