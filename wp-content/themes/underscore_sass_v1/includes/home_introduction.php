@@ -12,7 +12,7 @@
 		</div>
 	</div>
     <div class="scroll_way revealOnScroll" data-animation="fadeIn anim-offset-sm">
-		<a class="scrollTo" href="#parallax"></a>
+		<a class="scrollTo" href="#section_2"></a>
 	</div>
 
 </section>

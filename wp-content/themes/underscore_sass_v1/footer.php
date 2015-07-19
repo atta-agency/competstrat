@@ -82,14 +82,16 @@
 <script>
     var nlform = new NLForm( document.getElementById( 'nl-form' ) );
 </script>
+
 <script> 
-$(document).ready(function(){
-    $("#animate").click(function(){
-        $("#formulaire").css({display: 'block'});
-        $("#formulaire").animate({left: '20px'});
-    });
-});
+  $(document).ready(function(){
+      $("#animate").click(function(){
+          $("#formulaire").css({display: 'block'});
+          $("#formulaire").animate({left: '20px'});
+      });
+  });
 </script> 
+
 <script> 
 $(document).ready(function(){
     $("#animate-inscri").click(function(){

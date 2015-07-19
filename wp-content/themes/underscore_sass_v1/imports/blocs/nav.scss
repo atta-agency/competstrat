@@ -97,14 +97,14 @@
 			}
 
 			&.active {
-				&:before {
+				/*&:before {
 					content: url('assets/img/active-arrow.png');
 					position: absolute;
 					bottom: -5px;
 					text-align: center;
 					left: 50%;
 					margin-left: -5px;
-				}
+				}*/
 			}
 
 			&:hover , &:focus {

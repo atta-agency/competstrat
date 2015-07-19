@@ -1,8 +1,52 @@
 .carousel{
 	.carousel-inner{
 		.item{
+			img {
+				max-width: 60%;
+			}
 			&.active{}
-			.carousel-caption {}
+			.carousel-caption {
+				color: $primary-color;
+				height: 100%;
+				.special_title {
+					font-size: 45px;
+					margin-top: 90px;
+					&:before {
+						top:80px;
+					}
+				}
+				.controls_box {
+					position: absolute;
+					bottom: 10px;
+					.controls {
+						bottom: 0;
+
+						&.cl-right {
+							margin-left: 200px;
+						}
+						&.cl-left {
+							margin-left: 10px;
+						}
+					}
+				}
+				
+				p {
+					&.lead {
+						font-weight: 700;
+					}
+				}
+				@media (min-width: 768px) {
+					right: 0;
+					  left: auto;
+					  padding-bottom: 30px;
+					  max-width: 40%;
+					  padding: 70px;
+					  text-align: left;
+					  bottom: auto;
+					  top: 0;
+					  text-shadow:none;
+				}
+			}
 		}
 	}
 	.carousel-control{
@@ -13,7 +57,9 @@
 		&.right{}
 	}
 	.carousel-indicators{
+		
 		li{
+			background-color: #000;
 			&.active{}
 		}
 	}
