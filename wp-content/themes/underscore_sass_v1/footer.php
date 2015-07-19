@@ -76,7 +76,12 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.timers-1.2.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.3.2.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/nlform.js"></script>
 
+
+<script>
+    var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+</script>
 <script> 
 $(document).ready(function(){
     $("#animate").click(function(){
