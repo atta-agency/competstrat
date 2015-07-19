@@ -27,14 +27,16 @@
 	&:focus{}
 }
 .btn-primary {
-	background-color: $secondary-color; 
-	border: none; 
-	color: #fff;
-	padding: 5px 50px;
+	border:1px solid #af163c;
+	color: #af163c;
+	padding: 15px 35px;
+	background: none;
+	font-family: "Lato", sans-serif;
+
 	&:hover{
-		background-color: darken($secondary-color,20%); 
-		border: none; 
-		color: #fff;
+		background: none;
+		border:1px solid #000;
+		color: #000;
 	}
 	&:focus{}
 }

@@ -1,10 +1,7 @@
 <section id="section_5" class="home_realisation">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
+
+
 				<div class="wrapper clearfix">
-
-
 
 					<div class="carousel clearfix">
 
@@ -70,7 +67,5 @@
 
 
 				</div><!-- /wrapper -->
-			</div>
-		</div>
-	</div>
+
 </section>

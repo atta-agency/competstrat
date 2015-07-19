@@ -1,5 +1,4 @@
 
-
 (function($) {
 
     $.fn.dualSlider = function(options) {
@@ -191,6 +190,5 @@
     };
 
 })(jQuery);
-
 
 

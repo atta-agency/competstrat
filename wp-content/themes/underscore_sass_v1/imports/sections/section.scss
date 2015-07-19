@@ -55,7 +55,7 @@ section {
 						text-align: justify;
 						line-height: 25px;
 						letter-spacing: 1px;
-  						font-weight: 300;
+						font-weight: 300;
 					}
 				}
 			}
@@ -129,13 +129,13 @@ section {
 			height:100vh;
 		}
 		p {
-			  font-size: 25px;
+			font-size: 25px;
 
-			  small {
-			  	font-size: 18px;
+			small {
+				font-size: 18px;
 				margin-top: 50px;
 				display: inline-block;
-			  }
+			}
 		}
 		h2 {
 			margin-top: 160px;
@@ -146,12 +146,12 @@ section {
 		.package {
 			position: absolute;
 			right: 18%;
-  			bottom: 100px;
+			bottom: 100px;
 
-  			@media (max-width: 768px) {
+			@media (max-width: 768px) {
 				display:none;
 			}
-  		}
+		}
 	}
 	&.home_ingredients {
 		background-color: $primary-color;
@@ -191,36 +191,166 @@ section {
 		}
 	}
 	&.home_club {
-		background: url(assets/img/bg-club.jpg) 50% 50% no-repeat;
-		@include background-size(cover);
-		padding: 180px 0;
-		height: 753px;
-		position: relative;
-		color: $color-0;
+		margin-bottom: 200px;
+		
 		.club_banner {
 			position: absolute;
-			top: 0;
+			
 		}
 		h2 {
 			&.special_title {
-				color: $color-0;
+				color: #000;
 				border-color: $color-0;
 			}
 		}
-		form {
-			
-			@media(min-width: 768px){
-				max-width: 350px;
+		.box-img{
+			width: 942px;
+			float: right;
+		}
+		.box-text {
+			padding: 35px;
+			background: #fff;
+			width: 590px;
+			position: absolute;
+			top:285px;
+
+		}
+		
+	}
+	&.home_produit{
+		background: #fafafa;
+		position: relative;
+		margin-bottom: 50px;
+
+		.fiche-produit{
+			max-width: 570px;
+			padding-top: 80px;
+			.piece{
+				float: left;
+				padding-right: 120px;
+				padding-top: 20px;
+			}
+			.description{
+				h3{
+					font-family: 'bebas', sans-serif;
+					font-size: 45px;
+					letter-spacing: 2px;
+					padding:0px;
+					margin-bottom:-8px;
+					font-weight: bold;
+
+				}
+				span{
+					font-family:$primary-font;
+					font-size: 25px;
+					font-weight: bold;
+
+				}
+				p{
+					font-family: $basic-font;
+					line-height: 22px;
+					font-size: 15px;
+					width: 98%;
+					margin-top: 30px;
+
+
+
+				}
+				button{
+
+					margin-left: 190px;
+				}
+			}
+			#formulaire{
+				width: 99%;
+				display: none;
+				z-index: 10;
+				position: absolute;
+				background: #fafafa;
+				padding:65px;
+
+				h3{
+					font-family: 'bebas', sans-serif;
+					font-size: 35px;
+					letter-spacing: 2px;
+					font-weight: bold;
+				}
+				input{
+					width: 90%;
+					border:1px solid #000;
+					padding:5px;
+					margin-top:19px;
+				}
+
+				.submit{
+				}
+				.commandez{
+					border:1px solid #af163c;
+					width:30%;
+					margin-left: 60%;
+
+				}
+				::-webkit-input-placeholder {
+					color: #000;
+					font-family: $primary-font;
+					font-weight: 300;
+					font-size: 11px;
+				}
+
+				:-moz-placeholder { /* Firefox 18- */
+					color: #000;  
+					font-family: $primary-font;
+					font-weight: 300;
+					font-size: 11px;
+				}
+
+				::-moz-placeholder {  /* Firefox 19+ */
+					color: #000;  
+					font-family: $primary-font;
+					font-weight: 300;
+					font-size: 11px;
+				}
+
+				:-ms-input-placeholder {  
+					color: #000;  
+					font-family: $primary-font;
+					font-weight: 300;
+					font-size: 11px;
+				}
+
+
 			}
 
-			button {
-				float: right;
-				margin-top: 10px;
-			}
-			label {
-				margin: 0;
+		}
+
+		.point-vente{
+			max-width: 425px;
+			background: #FFF;
+			padding: 50px;
+			.contenu{
+				padding:30px;
+				text-align: center;
+				h3{
+					text-align: center;
+					font-family: 'bebas', sans-serif;
+					font-size: 35px;
+					letter-spacing: 2px;
+					font-weight: bold;
+					padding-top: 53px;
+				}
+				p{
+					font-family:$primary-font;
+					font-size: 16px;
+					text-align: center;
+					padding-top: 20px;
+				}
+				button{
+					text-align: center;
+					margin-top:71px;	
+				}
 			}
 		}
+
 	}
 }
 #wpadminbar {position: absolute;}
