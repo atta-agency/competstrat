@@ -191,7 +191,7 @@ section {
 		}
 	}
 	&.home_club {
-		margin-bottom: 200px;
+		margin-bottom: 265px;
 		
 		.club_banner {
 			position: absolute;
@@ -201,6 +201,8 @@ section {
 			&.special_title {
 				color: #000;
 				border-color: $color-0;
+				font-size: 65px;
+				padding-top: 30px;
 			}
 		}
 		.box-img{
@@ -210,7 +212,7 @@ section {
 		.box-text {
 			padding: 35px;
 			background: #fff;
-			width: 590px;
+			width: 690px;
 			position: absolute;
 			top:285px;
 
