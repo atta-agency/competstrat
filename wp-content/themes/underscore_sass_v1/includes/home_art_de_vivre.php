@@ -5,9 +5,8 @@
 
 			<div class="col-sm-12">
 				
-			<div class="col-sm-6">
-
 			<div class="col-sm-8 col-md-6">
+
 
 				<h2 class="special_title">
 				L'art de vivre<br/>
@@ -22,7 +21,6 @@
 				</p>
 				<p><strong>Krill Tonic est un art, un style de vie.</strong></p>
 
-			</div>
 		</div>
 	</div>
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/georgie.png" class="portrait">
