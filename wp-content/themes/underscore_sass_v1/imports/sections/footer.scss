@@ -1,7 +1,10 @@
 footer {
 	background-color: $primary-color;
 	color: $color-0;
-
+	.first-section{
+		border-bottom: 1px solid #FFF;
+		padding-top: 20px;
+	}
 	.site-info {
 		img {
 			max-width: 150px;
@@ -17,6 +20,7 @@ footer {
 
 			ul {
 				margin-bottom: 0;
+
 			}
 		}
 		.logo_footer {
@@ -70,6 +74,12 @@ footer {
 	.menu {
 		list-style: none;
 		li {
+			list-style-type: none;
+			text-decoration: underline;
+			display: inline;
+			text-transform: uppercase;
+			font-size: 16px;
+			padding: 20px;
 			a {
 				color: $color-0;
 			}
