@@ -32,11 +32,19 @@
 	padding: 15px 35px;
 	background: none;
 	font-family: "Lato", sans-serif;
+	border-radius: 50px;
+
 
 	&:hover{
-		background: none;
-		border:1px solid #000;
-		color: #000;
+		background: #982838;
+		border:1px solid #af163c;
+		color: #fff;
+		&:after {
+			content:"\f054";
+			font-family: "fontAwesome";
+			font-size: 15px;
+			margin-left: 10px;
+		}
 	}
 	&:focus{}
 }
