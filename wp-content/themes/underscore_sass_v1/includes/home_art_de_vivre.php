@@ -13,9 +13,9 @@
 				<strong>Krill Tonic</strong>	
 				</h2>
 				<p>
-					<span class="bold">Krill Tonic vous permet de préserver la beauté et l’énergie, la fougue,
+					<strong>Krill Tonic vous permet de préserver la beauté et l’énergie, la fougue,
 					l’indéfectible ardeur de votre jeunesse, de ces années qui virent de belles pages s’écrire,
-					de beaux moments se vivre.</span>
+					de beaux moments se vivre.</strong>
 				</p>
 				<p>
 					 Déguster Krill Tonic c’est s’arroger l’aptitude rare de pouvoir saisir le temps,
