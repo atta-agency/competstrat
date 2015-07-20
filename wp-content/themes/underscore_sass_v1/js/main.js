@@ -30,5 +30,7 @@ $(document).ready(function() {
 	        $(".header").removeClass("visible-header");
 	    }
 	}); //missing );
+
+	$('#myCarousel, #myCarousel2').carousel();
 	
 });

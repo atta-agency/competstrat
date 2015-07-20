@@ -1,66 +1,107 @@
-.carousel{
-	.carousel-inner{
-		.item{
-			img {
-				max-width: 60%;
-			}
-			&.active{}
-			.carousel-caption {
-				color: $primary-color;
-				height: 100%;
-				.special_title {
-					font-size: 45px;
-					margin-top: 90px;
-					&:before {
-						top:80px;
-					}
-				}
-				.controls_box {
-					position: absolute;
-					bottom: 10px;
-					.controls {
-						bottom: 0;
 
-						&.cl-right {
-							margin-left: 200px;
-						}
-						&.cl-left {
-							margin-left: 10px;
-						}
-					}
+.carousel-inner {
+	min-height: 80vh;
+
+	.item {
+		min-height: 80vh;
+
+		.caption {
+			color: $primary-color;
+			min-height: 100%;
+			width: 100%;
+			max-width: 100%;
+			padding: 70px;
+			.special_title {
+				font-size: 45px;
+				margin-top: 90px;
+				&:before {
+					top:80px;
 				}
+			}
+			.controls_box {
 				
-				p {
-					&.lead {
-						font-weight: 700;
-					}
-				}
-				@media (min-width: 768px) {
-					right: 0;
-					  left: auto;
-					  padding-bottom: 30px;
-					  max-width: 40%;
-					  padding: 70px;
-					  text-align: left;
-					  bottom: auto;
-					  top: 0;
-					  text-shadow:none;
+			}
+			
+			p {
+				&.lead {
+					font-weight: 700;
 				}
 			}
-		}
-	}
-	.carousel-control{
-		&:hover{}
-		&focus{}
-
-		&.left{}
-		&.right{}
-	}
-	.carousel-indicators{
-		
-		li{
-			background-color: #000;
-			&.active{}
+			
 		}
 	}
 }
+
+.carousel-left {
+	position: relative;
+	width: 60%;
+	float: left;
+	min-height: 80vh;
+}
+.carousel-right {
+	position: relative;
+	width: 40%;
+	float: left;
+	min-height: 80vh;
+	
+}
+
+
+.carousel-control {
+	top: auto;
+	bottom: 20px;
+
+	&.left {
+		background:none;
+	}
+
+	&.right {
+		background:none;
+	}
+}
+
+.carousel-indicators {
+
+	li {
+		border-color: #000;
+
+		&.active {
+			background-color: #000;
+		}
+	}
+}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
