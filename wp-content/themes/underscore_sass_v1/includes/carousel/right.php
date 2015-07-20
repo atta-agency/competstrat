@@ -33,6 +33,6 @@
   </div>
 
   <!-- Carousel nav -->
-  <a class="carousel-control left" href="[id^=myCarousel]" data-slide="prev"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/carousel_previous_bg.gif"></a>
-  <a class="carousel-control right" href="[id^=myCarousel]" data-slide="next"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/carousel_next_bg.gif"></a>
+  <a class="carousel-control left" href="[id^=myCarousel]" data-slide="prev">‹</a>
+  <a class="carousel-control right" href="[id^=myCarousel]" data-slide="next">›</a>
 </div>

@@ -37,31 +37,81 @@
 	width: 60%;
 	float: left;
 	min-height: 80vh;
+
+	@media (max-width: 768px) {
+		float:none;
+		width: 100%;
+	}
 }
 .carousel-right {
 	position: relative;
 	width: 40%;
 	float: left;
 	min-height: 80vh;
+
+	@media (max-width: 768px) {
+		float:none;
+		width: 100%;
+	}
 	
 }
 
+@media (max-width: 768px) {
+	.carousel-control {
+		top: 0;
+		background: none;
+		color: #000;
+		text-shadow: none;
+		font-size: 6em;
+		opacity: 1;
+		  &:hover {
+		  	color:#000;
+		  }
 
-.carousel-control {
-	top: auto;
-	bottom: 20px;
+		&.left {
+			background:none;
+		}
 
-	&.left {
-		background:none;
+		&.right {
+			background:none;
+		}
 	}
+}
 
-	&.right {
-		background:none;
+
+@media (min-width: 768px) {
+	.carousel-control {
+		top: auto;
+		bottom: 20px;
+		background: none;
+		color: #000;
+		text-shadow: none;
+		font-size: 2em;
+		opacity: 1;
+		  &:hover {
+		  	color:#000;
+		  }
+
+		&.left {
+			background:none;
+			left: 40px;
+		}
+
+		&.right {
+			background:none;
+			left: 160px;
+			right: auto;
+		}
 	}
 }
 
 .carousel-indicators {
-
+	left: 110px;
+	width: 60px;
+	margin-left:0;
+	@media (max-width: 768px) {
+		display:none;
+	}
 	li {
 		border-color: #000;
 
