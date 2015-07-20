@@ -8,7 +8,7 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/bg-club.jpg"/>
 				</div>
 				<div class="box-text">
-					<h2 class="special_title">Krill Tonic<br/><strong>Bien plus qu'une expérience</strong></h2>
+					<h2 class="special_title">Krill Tonic<br/><strong>Bien plus<br/> qu'une expérience</strong></h2>
 					<div class="main clearfix">
 						<form id="nl-form" class="nl-form">
 							<p>Rejoignez dès à présent le Club Krill Tonic et sublimez votre quotidien. 
