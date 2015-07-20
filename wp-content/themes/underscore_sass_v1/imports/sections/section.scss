@@ -65,6 +65,13 @@ section {
 		background: #e2e9ff;
 		height: 646px;
 		position: relative;
+		p{
+			width: 77%;
+			padding-bottom: 40px;
+			.bold{
+			font-weight: 600;
+			}
+		}
 		.special_title {
 			margin-top: 130px;
 			color: #000;
