@@ -400,7 +400,7 @@ section {
 .nl-dd ul li.nl-dd-checked:before,
 .nl-submit:before,
 .nl-field-go:before {
-	font-family: 'nlicons';
+	font-family: 'fontAwesome';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -441,7 +441,7 @@ section {
 }
 
 .nl-field-go:before {
-	content: "\e001";
+	content: "\f00d";
 	font-size: 75%;
 	color: #fff;
 	width: 100%;
