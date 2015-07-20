@@ -89,26 +89,30 @@
 			padding: 7px 20px 10px;
 
 			&.hot {
-				background-color: $red;
+				border:1px solid $red;
+				color: #fff;
+				border-radius: 50px;
 
 				&:hover {
 					background-color:darken($red, 10%);
+					color: #FFF;
 				}
 			}
 
 			&.active {
-				&:before {
+				/*&:before {
 					content: url('assets/img/active-arrow.png');
 					position: absolute;
 					bottom: -5px;
 					text-align: center;
 					left: 50%;
 					margin-left: -5px;
-				}
+				}*/
 			}
 
 			&:hover , &:focus {
-				background:transparent;
+				color:$red;
+				background: transparent;
 			}
 
 		}

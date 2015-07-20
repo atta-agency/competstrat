@@ -61,12 +61,12 @@
 				        </div>
 				        <div id="navbar" class="collapse navbar-collapse">
 				          <ul class="nav navbar-nav">
-				            <li><a class="scrollTo" href="#parallax">Accueil</a></li>
-				            <li><a class="scrollTo" href="#about">Art de vivre</a></li>
-				            <li><a class="scrollTo" href="#home_description">La puissance</a></li>
-				            <li><a class="scrollTo" href="#home_video">L'histoire</a></li>
-				            <li><a class="scrollTo hot" href="#home_club">Pré-commandez</a></li>
-				             <li><a class="scrollTo" href="#home_club">Le club</a></li>
+				            <li><a class="scrollTo" href="#section_1">Accueil</a></li>
+				            <li><a class="scrollTo" href="#section_2">Art de vivre</a></li>
+				            <li><a class="scrollTo" href="#section_3">La puissance</a></li>
+				            <li><a class="scrollTo" href="#section_4">L'histoire</a></li>
+				            <li><a class="scrollTo hot" href="#section_6">Pré-commandez</a></li>
+				             <li><a class="scrollTo" href="#section_7">Le club</a></li>
 				          </ul>
 				        </div><!--/.nav-collapse -->
 					</div>

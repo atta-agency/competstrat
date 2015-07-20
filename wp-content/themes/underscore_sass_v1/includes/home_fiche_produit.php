@@ -40,18 +40,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<div class="point-vente">
-					<div class="contenu">
-						<h3>Où trouver un concept store</h3>
-						<p>Pour savoir où se trouve le concept store afin de ce procurer la fiole, inscrivez-vous à la newsletter. </p>
-						<button type="submit" id="animate-inscri" class="inscription btn-primary">S'INSCRIRE</button>
-					</div>
-				</div>
-
-			</div>
 		</div>
 	</div>	
+	<div class="point-vente">
+		<div class="contenu">
+			<h3>Où trouver un concept store</h3>
+			<p>Pour savoir où se trouve le concept store afin de ce procurer la fiole, inscrivez-vous à la newsletter. </p>
+			<button type="submit" id="animate-inscri" class="inscription btn-primary">S'INSCRIRE</button>
+		</div>
+	</div>
 </section>
 
 

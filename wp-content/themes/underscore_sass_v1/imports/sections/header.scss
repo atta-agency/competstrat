@@ -7,7 +7,6 @@ header {
 
 	.navbar-fixed-top {
 		background: #000;
-		border-bottom: 1px solid #fff;
 		height: 55px;
 		padding: 0;
 	}
@@ -30,8 +29,10 @@ header {
 							color: #000;
 							font-weight: 300;
 							&.hot {
-								background-color: $red;
+								border:1px solid $red;
 								color: #fff;
+								border-radius: 50px;
+								background: none;
 								&:hover {
 									background-color:darken($red, 10%);
 								}
