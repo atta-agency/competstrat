@@ -2,7 +2,7 @@ footer {
 	background-color: $primary-color;
 	color: $color-0;
 	.first-section{
-		border-bottom: 1px solid #FFF;
+		
 		padding-top: 20px;
 	}
 	.site-info {
@@ -54,21 +54,21 @@ footer {
 
 				@media(min-width: 768px) {
 					&:nth-child(1) {
-						border-left:1px solid $alternate-color;
+						border-left:1px solid #fff;
 					}
 					&:nth-child(2) {
-						border-left:1px solid $alternate-color;
-						border-right:1px solid $alternate-color;
+						border-left:1px solid #fff;
+						border-right:1px solid #fff;
 					}
 					&:nth-child(3) {
-						border-right:1px solid $alternate-color;
+						border-right:1px solid #fff;
 					}
 				}
 			}
 		}
 	}
 	hr {
-		border-top:1px solid $alternate-color;
+		border-top:1px solid #fff;
 		margin-top: 0;
 	}
 	.menu {
