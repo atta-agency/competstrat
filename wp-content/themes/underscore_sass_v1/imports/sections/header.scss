@@ -43,7 +43,9 @@ header {
 									color: #fff;
 								}
 							}
-							&:hover {}
+							&:hover {
+								font-weight: 400;
+							}
 							&:focus{}
 						}
 						&.active {

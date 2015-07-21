@@ -6,7 +6,7 @@
 			<div class="col-sm-12 text-center">
 				<img class="home_logo" data-animation="fadeIn anim-offset-xs" id="test" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
 
-				<h1>La boisson intemporelle</h1>
+				<h1>La boisson intemporelle.</h1>
 
 			</div>
 		</div>

@@ -8,7 +8,7 @@
 					<div id="formulaire">
 					<a href="javascript:Closeform('formulaire');"><img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/cross.png"/></a>
 						
-						<form class="form" method="POST" id="form1">
+						<form class="form" method="POST" action="" id="form1">
 						<input type="hidden" name="pre_co" value="1">
 						<h3>Pré-commandez votre fiole de <span class="light">Krill Tonic</span></h3>
 							<p class="name">

@@ -3,13 +3,11 @@
   <!-- Carousel items -->
   <div class="carousel-inner">
     <div class="active item">
+      
       <div class="caption">
-        <h2 class="special_title"><strong>La mise en fiole</strong></h2>
-        <p class="lead">48° 51′ 24″ N 2°21′.07″ E</p>
-        <p>Le précieux liquide est ensuite acheminé directement vers notre comptoir parisien idéalement situé au coeur du charmant quartier de l’Opéra, ce quartier au sein duquel vit tout autant la culture que la douceur de vivre.</p> 
-
-        <p>C’est ici que nous élaborons la composition finale en ajoutant aux extraits de Krill l’ensemble des ingrédients naturels, cette nature qui alloue maintenant à Krill Tonic le coeur pulsionnel, battant, de ses bienfaits indéfectibles.</p>
-
+        <h2 class="special_title"><strong>Le Krill</strong></h2>
+        <p class="lead">64°11'30.9"N 8°06'41.4"E</p>
+        <p>Entre tradition et modernité, au coeur d’une immatérialité aujourd’hui maîtrisée, le krill est pêché et sélectionné scrupuleusement à la main, en vertu d’une artisanale méthode ancestrale par nos collaborateurs, des équipes motivées, dans les eaux glacées de l’arctique. </p>
       </div>
     </div>
     <div class="item">
@@ -21,9 +19,12 @@
     </div>
     <div class="item">
       <div class="caption">
-        <h2 class="special_title"><strong>Le Krill</strong></h2>
-        <p class="lead">64°11'30.9"N 8°06'41.4"E</p>
-        <p>Entre tradition et modernité, au coeur d’une immatérialité aujourd’hui maîtrisée, le krill est pêché et sélectionné scrupuleusement à la main, en vertu d’une artisanale méthode ancestrale par nos collaborateurs, des équipes motivées, dans les eaux glacées de l’arctique. </p>
+        <h2 class="special_title"><strong>La mise en fiole</strong></h2>
+        <p class="lead">48° 51′ 24″ N 2°21′.07″ E</p>
+        <p>Le précieux liquide est ensuite acheminé directement vers notre comptoir parisien idéalement situé au coeur du charmant quartier de l’Opéra, ce quartier au sein duquel vit tout autant la culture que la douceur de vivre.</p> 
+
+        <p>C’est ici que nous élaborons la composition finale en ajoutant aux extraits de Krill l’ensemble des ingrédients naturels, cette nature qui alloue maintenant à Krill Tonic le coeur pulsionnel, battant, de ses bienfaits indéfectibles.</p>
+
       </div>
     </div>
     <div class="controls-box">

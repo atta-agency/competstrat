@@ -22,7 +22,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<p class="catch">Le Krill a été étudié méticuleusement pour prélever<br/> la dose parfaite afin de vous faire profiter de toute<br/> la magnificence de sa puissance.</p>
+				<p class="catch">Le Krill a été étudié méticuleusement pour prélever la dose parfaite afin de vous faire profiter de toute la magnificence de sa puissance.</p>
 			</div>
 		</div>
 	</div>
