@@ -1,3 +1,28 @@
+<?php
+
+$msg = '';
+
+if(isset($_POST["email"])){
+	if(filter_var ( $_POST["email"] , FILTER_VALIDATE_EMAIL)){
+
+		if(isset($_POST["prenom"]) &&  is_string($_POST["prenom"])){
+			if(isset($_POST["nom"]) && is_string($_POST["nom"])){
+				$retour = insert($_POST["prenom"],$_POST["nom"],$_POST["email"],$_POST["pre_co"]);
+				if($retour != false){
+
+
+					$msg = "<span>"."Merci. Vous receverez très prochainement une invitation au club.". "</span>";
+
+				}else{$msg = "<span>"."L'inscription n'a pas abouti.". "</span>";}
+
+			}else{$msg = "<span>"."Nom invalide.". "</span>";}
+		}
+
+	}
+}   
+
+
+?>
 <section id="section_6" class="home_produit">
 	<div class="container">
 		<div class="row">
@@ -12,7 +37,7 @@
 						<input type="hidden" name="pre_co" value="1">
 						<h3>Pré-commandez votre fiole de <span class="light">Krill Tonic</span></h3>
 							<p class="name">
-								<input name="name" type="text" class="" placeholder="Votre nom" id="name" />
+								<input name="nom" type="text" class="" placeholder="Votre nom" id="name" />
 							</p>
 
 							<p class="text">
