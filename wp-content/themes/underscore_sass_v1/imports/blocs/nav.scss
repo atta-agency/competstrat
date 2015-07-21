@@ -48,6 +48,8 @@
 		margin-top: 8px;
 		@media (max-width: 768px) {
 			margin-left:15px;
+			float: right;
+			margin-right: 20px;
 		}
 		&:hover{}
 		&:focus{}
@@ -87,6 +89,10 @@
 			font-size: 16px;
 			color: #ffffff;
 			padding: 7px 20px 10px;
+
+			@media (max-width: 768px) {
+				color:#fff;
+			}
 
 			&.hot {
 				border:1px solid $red;
@@ -128,7 +134,11 @@
 	}
 }
 .navbar-toggle{
-	border-color: $primary-color;
+	border: none;
+
+	@media (max-width: 768px) {
+		float:left;
+	}
 	&:hover{}
 	&:focus{}	
 }
@@ -136,10 +146,20 @@
 	-webkit-transition: width 2s; /* Safari */
     transition: width 2s;
     padding:15px 0;
+
+    .col-sm-10 {
+    	@media (max-width: 768px) {
+    		padding:0;
+    	}
+    }
 }
 .navbar-static-top{}
 .navbar-fixed-bottom{}
 
 .icon-bar{
-	background-color: $primary-color;
+	background-color: #fff;
+}
+
+.visible-header .icon-bar {
+	background-color: #000;
 }

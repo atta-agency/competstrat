@@ -25,6 +25,10 @@ section {
 			font-family: 'bebas', sans-serif;
 			font-weight: 700;
 			letter-spacing: 10px;
+
+			@media (max-width: 768px) {
+				font-size:26px;
+			}
 		}
 	}
 	&.home_realisation {
@@ -110,6 +114,9 @@ section {
 				margin-left: -30px;
 			}
 		}
+		.box_img_mob {
+			width: 100%;
+		}
 		p {
 			font-family: $primary-font;
 			font-size: 32px;
@@ -118,19 +125,23 @@ section {
 			line-height: 48px;
 			@media (max-width: 768px) {
 				font-size: 20px;
+				font-weight: 400;
 			}
 			&.catch {
 				margin-top: 200px;
 				@media (max-width: 768px) {
 					margin-top:0px;
 					font-size: 20px;
-					line-height: auto;
+					font-weight: 400;
+					line-height: 35px;
 				}
 			}
 			
 		}
 		.box_img {
 			position: relative;
+
+
 
 			.box_txt {
 				padding: 40px;
@@ -140,7 +151,7 @@ section {
 				bottom: -130px;
 				right: 0;
 				@media (max-width: 768px) {
-					padding: 40px;
+					padding: 40px 15px;
 				  background: #fff;
 				  width: auto;
 				  position: relative;
@@ -171,6 +182,7 @@ section {
 
 			@media (max-width: 768px) {
 				font-size:20px;
+				font-weight: 400;
 			}
 
 			small {
@@ -179,6 +191,10 @@ section {
 				margin-top: 50px;
 				width: 80%;
 				display: inline-block;
+
+				@media (max-width: 768px) {
+					width: 100%;
+				}
 			}
 		}
 		h2 {
@@ -195,7 +211,11 @@ section {
 			bottom: 100px;
 
 			@media (max-width: 768px) {
-				display:none;
+				position: relative;
+				top: 20px;
+				width: 300px;
+				left: 50%;
+				margin-left: -150px;
 			}
 		}
 	}
@@ -248,6 +268,13 @@ section {
 		.club_banner {
 			position: absolute;
 			left: 12%;
+
+			@media (max-width: 768px) {
+				position: absolute;
+				left: 50%;
+				width: 80px;
+				margin-left: -40px;
+			}
 			
 		}
 		h2 {
@@ -262,18 +289,35 @@ section {
 			width: 865px;
 			float: right;
 			margin-top: 100px;
+
+			@media (max-width: 768px) {
+				width: auto;
+				float: right;
+				margin-top: 140px;
+			}
 		}
 		.box-text {
 			padding:35px 35px 35px 30px;
 			background: #fff;
 			max-width: 840px;
 			min-width: 700px;
-
 			position: absolute;
 			top: 245px;
+			@media (max-width: 768px) {
+				padding: 35px 35px 35px 30px;
+				background: transparent;
+				clear: both;
+				max-width: 840px;
+				min-width: 100%;
+				position: relative;
+				top: auto;
+			}
 			.special_title {
 				margin-top: 65px;
 				font-size: 80px;
+				@media (max-width: 768px) {
+					font-size:48px;
+				}
 				&:before {
 					top:-7px;
 				}
@@ -287,6 +331,10 @@ section {
 			margin-left: 320px;
 			text-align: right;
 			float: right;
+
+			@media (max-width: 768px) {
+				margin-left:0;
+			}
 
 		}
 		.nl-form {
@@ -567,9 +615,17 @@ input:focus::-ms-input-placeholder {
 	background: #fafafa;
 	position: relative;
 	padding-bottom: 100px;
+	@media (max-width: 768px) {
+		padding-bottom:0;
+		border-bottom: 1px solid #000;
+	}
 	.fiche-produit{
 		max-width: 570px;
 		padding-top: 80px;
+		/*@media (max-width: 768px) {
+			background:url(assets/img/bg-krill-mob.png) bottom center no-repeat;
+			@include background-size(cover);
+		}*/
 		.piece{
 			float: left;
 			padding-right: 120px;
@@ -577,6 +633,18 @@ input:focus::-ms-input-placeholder {
 
 			@media (max-width: 768px) {
 				padding-right:20px;
+				clear: both;
+  				width: 100%;
+			}
+
+			img {
+				@media (max-width: 768px) {
+					width: 80px;
+					left: 50%;
+					position: relative;
+					margin-left: -40px;
+					top: -50px;
+				}
 			}
 		}
 		.description{
@@ -608,6 +676,12 @@ input:focus::-ms-input-placeholder {
 			button{
 
 				margin-left: 190px;
+
+				@media (max-width: 768px) {
+					width: 210px;
+					left: 50%;
+					margin-left: -105px;
+				}
 			}
 		}
 		#formulaire{
@@ -617,6 +691,10 @@ input:focus::-ms-input-placeholder {
 			position: absolute;
 			background: #fafafa;
 			padding:65px;
+
+			@media (max-width: 768px) {
+				bottom:0;
+			}
 
 			h3{
 				font-family: 'bebas', sans-serif;
@@ -687,6 +765,9 @@ input:focus::-ms-input-placeholder {
 			.contenu{
 				text-align: center;
   				max-width: 340px;
+  				@media (max-width: 768px) {
+  					max-width:100%;
+  				}
 				h3{
 					text-align: center;
 					font-family: 'bebas', sans-serif;
