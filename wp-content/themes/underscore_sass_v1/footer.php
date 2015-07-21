@@ -12,7 +12,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<div class="container first-section">
+			<div class="container">
 				<div class="row">
           <div class="col-sm-8">
             <div class="logo_footer">

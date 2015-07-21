@@ -36,7 +36,7 @@
 						<p>Les composants de Krill Tonic ont été pensés et étudiés afin d’optimiser la régénération de votre corps, afin de faire de vous un nouvel Homme, de donner à votre organisme les conditions sine qua non d’un renouveau devenant de facto réalité.
 						</p>
 						<p>Eau de source naturelle, pulpe d'aloé vera, huile de Krill, ginseng, stévia, vitamine B2, vitamine B6, vitamine B12, acid citrique, collagène, extrait de crevette nordique Rouge (astaxanthine, Coenzyme Q10).</p>
-						<button type="submit" id="animate" class="commandez  btn-primary">PRÉ-COMMANDEZ</button>
+						<button type="submit" id="animate" class="btn btn-4 btn-4c icon-arrow-right">PRÉ-COMMANDEZ</button>
 					</div>
 				</div>
 			</div>
@@ -46,7 +46,7 @@
 		<div class="contenu">
 			<h3>Où trouver un concept store</h3>
 			<p>Pour savoir où se trouve le concept store afin de ce procurer la fiole, inscrivez-vous à la newsletter. </p>
-			<button type="submit" id="animate-inscri" class="inscription btn-primary">S'INSCRIRE</button>
+			<button type="submit" id="animate-inscri" class="btn btn-4 btn-4c icon-arrow-right">S'INSCRIRE</button>
 		</div>
 	</div>
 </section>

@@ -13,7 +13,7 @@
 						<form id="nl-form" class="nl-form">
 							<p>Rejoignez dès à présent le Club Krill Tonic et sublimez votre quotidien. 
 							Vous vous appelez <input type="text" value="" placeholder="PRÉNOM" data-subline=""/>, <input type="text" value="" placeholder="NOM" data-subline=""/> et vous souhaitez recevoir plus d’informations sur <input type="text" value="" placeholder="ADRESSE E-MAIL" data-subline=""/>.</p>
-							<button type="submit"  class="nlforminput btn-primary">Validez</button>
+							<button type="submit"  class="nlforminput btn btn-4 btn-4c icon-arrow-right">Validez</button>
 							</form>
 						</div>
 					</div>
