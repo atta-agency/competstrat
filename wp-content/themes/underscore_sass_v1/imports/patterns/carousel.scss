@@ -1,6 +1,6 @@
 
 .carousel-inner {
-	height: 80vh;
+	min-height: 80vh;
 	.controls-box {
 		position: absolute;
 	  	bottom: 0;
@@ -15,7 +15,7 @@
 	}
 
 	.item {
-		height: 80vh;
+		min-height: 80vh;
 
 		.caption {
 			color: $primary-color;
@@ -48,7 +48,7 @@
 	position: relative;
 	width: 60%;
 	float: left;
-	height: 80vh;
+	min-height: 80vh;
 
 	@media (max-width: 768px) {
 		float:none;
@@ -59,7 +59,7 @@
 	position: relative;
 	width: 40%;
 	float: left;
-	height: 80vh;
+	min-height: 80vh;
 
 	@media (max-width: 768px) {
 		float:none;
