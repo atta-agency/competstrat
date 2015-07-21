@@ -126,3 +126,11 @@ body {
 		}
 	}
 }
+
+.menu-menu-footer {
+	ul {
+		@media (max-width: 768px) {
+			padding:0;
+		}
+	}
+}
