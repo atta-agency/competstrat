@@ -1,9 +1,16 @@
 
 .carousel-inner {
-	min-height: 80vh;
+	height: 80vh;
+	.controls-box {
+		position: absolute;
+	  	bottom: 0;
+	  	width: 100%;
+	  	padding: 0 70px 0;
+	  	
+	}
 
 	.item {
-		min-height: 80vh;
+		height: 80vh;
 
 		.caption {
 			color: $primary-color;
@@ -36,7 +43,7 @@
 	position: relative;
 	width: 60%;
 	float: left;
-	min-height: 80vh;
+	height: 80vh;
 
 	@media (max-width: 768px) {
 		float:none;
@@ -47,7 +54,7 @@
 	position: relative;
 	width: 40%;
 	float: left;
-	min-height: 80vh;
+	height: 80vh;
 
 	@media (max-width: 768px) {
 		float:none;
@@ -67,6 +74,9 @@
 		  &:hover {
 		  	color:#000;
 		  }
+		  &:focus {
+		  	text-decoration: none;
+		  }
 
 		&.left {
 			background:none;
@@ -80,41 +90,40 @@
 
 
 @media (min-width: 768px) {
-	.carousel-control {
-		top: auto;
-		bottom: 20px;
+	.control {
 		background: none;
 		color: #000;
-		text-shadow: none;
-		font-size: 2em;
+		font-size: 1.4em;
 		opacity: 1;
+		position: relative;
 		  &:hover {
 		  	color:#000;
+		  	cursor: pointer;
+		  	text-decoration: none;
 		  }
 
 		&.left {
 			background:none;
-			left: 40px;
 		}
 
 		&.right {
 			background:none;
-			left: 160px;
-			right: auto;
 		}
 	}
 }
 
 .carousel-indicators {
-	left: 110px;
-	width: 60px;
-	margin-left:0;
+	width: auto;
+	  left: auto;
+	  position: relative;
+	  bottom: 0;
+	  margin: 0 20px;
 	@media (max-width: 768px) {
 		display:none;
 	}
 	li {
 		border-color: #000;
-
+		padding: 0;
 		&.active {
 			background-color: #000;
 		}
@@ -125,6 +134,9 @@
     .carousel-inner {
         .item {
             transition-property: opacity;
+            -webkit-transition: all 1s;
+			-moz-transition: all 1s;
+			transition: all 1s;
         }
         
         .item,

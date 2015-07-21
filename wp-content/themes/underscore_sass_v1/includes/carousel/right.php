@@ -1,9 +1,5 @@
 <div id="myCarousel2" class="carousel slide" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel2" data-slide-to="1"></li>
-    <li data-target="#myCarousel2" data-slide-to="2"></li>
-  </ol>
+  
   <!-- Carousel items -->
   <div class="carousel-inner">
     <div class="active item">
@@ -30,9 +26,30 @@
         <p>Entre tradition et modernité, au coeur d’une immatérialité aujourd’hui maîtrisée, le krill est pêché et sélectionné scrupuleusement à la main, en vertu d’une artisanale méthode ancestrale par nos collaborateurs, des équipes motivées, dans les eaux glacées de l’arctique. </p>
       </div>
     </div>
+    <div class="controls-box">
+      <ul class="list-inline">
+        <li>
+          <a class="control left" href="[id^=myCarousel]" data-slide="prev">‹</a>
+        </li>
+        <li>
+          <ol class="list-inline carousel-indicators">
+            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel2" data-slide-to="1"></li>
+            <li data-target="#myCarousel2" data-slide-to="2"></li>
+          </ol>
+        </li>
+        <li>
+          <a class="control right" href="[id^=myCarousel]" data-slide="next">›</a>
+        </li>
+      </ul>
+    </div>
   </div>
 
-  <!-- Carousel nav -->
-  <a class="carousel-control left" href="[id^=myCarousel]" data-slide="prev">‹</a>
-  <a class="carousel-control right" href="[id^=myCarousel]" data-slide="next">›</a>
+  
 </div>
+
+
+<!-- Carousel nav -->
+      
+        
+      

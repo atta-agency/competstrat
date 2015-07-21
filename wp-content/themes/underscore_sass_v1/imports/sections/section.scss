@@ -266,8 +266,8 @@ section {
 		.box-text {
 			padding:35px 35px 35px 30px;
 			background: #fff;
-			width: 690px;
-			width: 700px;
+			max-width: 840px;
+			min-width: 700px;
 
 			position: absolute;
 			top: 245px;
