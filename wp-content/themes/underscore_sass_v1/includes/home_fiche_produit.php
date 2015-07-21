@@ -4,9 +4,12 @@
 			<div class="col-sm-6">
 
 				<div class="fiche-produit">
+					
 					<div id="formulaire">
-
-						<form class="form" id="form1">
+					<a href="javascript:Closeform('formulaire');"><img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/cross.png"/></a>
+						
+						<form class="form" method="POST" id="form1">
+						<input type="hidden" name="pre_co" value="1">
 						<h3>Pré-commandez votre fiole de <span class="light">Krill Tonic</span></h3>
 							<p class="name">
 								<input name="name" type="text" class="" placeholder="Votre nom" id="name" />
@@ -23,9 +26,10 @@
 
 							<div class="submit">
 								<input type="submit" value="Pré-commandez" class="commandez btn-primary"/>
-								
+								<?php if(isset($msg)) echo $msg;?>
 							</div>
 						</form>
+						
 					</div>
 					<div class="piece">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/piece.png" alt="Krill Tonic"/>

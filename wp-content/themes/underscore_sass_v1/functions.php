@@ -147,4 +147,31 @@ if ( function_exists( 'register_nav_menus' ) ) {
 	register_nav_menus( $args );
 }
 
-//custom script newsletter
+//custom script club
+
+function bdConnect(){
+   try
+   {
+   		$connection= new PDO("mysql:host=localhost;dbname=Krill","root","root");
+  //$connection= new PDO("mysql:host=jeanphilgwkrill.mysql.db;dbname=jeanphilgwkrill","jeanphilgwkrill","Gh58Hag9");
+   $connection->exec("SET NAMES 'UTF8'");
+}
+catch (Exception $e)
+{
+    die('Erreur : ' . $e->getMessage());
+}
+
+return $connection;
+}
+
+function insert($prenom,$nom,$mail,$pre_co){
+    $connexion = bdConnect();
+    $insert = $connexion->prepare("INSERT INTO club(prenom,nom,email,pre_co) VALUES(?,?,?,?)");
+    $insert->execute(array($prenom,$nom,$mail,$pre_co));
+
+    $select = $connexion->prepare("select * FROM club WHERE email = ?");
+    $select->execute(array($mail));
+    $data = $select->fetch();
+
+    return $data;
+}

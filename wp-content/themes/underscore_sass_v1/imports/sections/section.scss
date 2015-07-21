@@ -152,11 +152,11 @@ section {
 				right: 0;
 				@media (max-width: 768px) {
 					padding: 40px 15px;
-				  background: #fff;
-				  width: auto;
-				  position: relative;
-				  top: 0px;
-				  right: 0;
+					background: #fff;
+					width: auto;
+					position: relative;
+					top: 0px;
+					right: 0;
 				}
 				p {
 					font-size: 16px;
@@ -262,7 +262,7 @@ section {
 
 		margin-bottom: 265px;
 
-		margin-bottom: 200px;
+		margin-bottom: 280px;
 		position: relative;
 
 		.club_banner {
@@ -626,6 +626,9 @@ input:focus::-ms-input-placeholder {
 			background:url(assets/img/bg-krill-mob.png) bottom center no-repeat;
 			@include background-size(cover);
 		}*/
+		.cross{
+			float: right;
+		}
 		.piece{
 			float: left;
 			padding-right: 120px;
@@ -634,7 +637,7 @@ input:focus::-ms-input-placeholder {
 			@media (max-width: 768px) {
 				padding-right:20px;
 				clear: both;
-  				width: 100%;
+				width: 100%;
 			}
 
 			img {
@@ -685,7 +688,7 @@ input:focus::-ms-input-placeholder {
 			}
 		}
 		#formulaire{
-			width: 99%;
+			width: 100%;
 			display: none;
 			z-index: 10;
 			position: absolute;
@@ -764,10 +767,10 @@ input:focus::-ms-input-placeholder {
 			}
 			.contenu{
 				text-align: center;
-  				max-width: 340px;
-  				@media (max-width: 768px) {
-  					max-width:100%;
-  				}
+				max-width: 340px;
+				@media (max-width: 768px) {
+					max-width:100%;
+				}
 				h3{
 					text-align: center;
 					font-family: 'bebas', sans-serif;

@@ -1,10 +1,12 @@
-<?php 
+<?php
+
 
 /*
 	Template Name: Home page
 */
 
 get_header();?>
+
 
 <?php include (TEMPLATEPATH . '/includes/home_introduction.php'); ?>
 
