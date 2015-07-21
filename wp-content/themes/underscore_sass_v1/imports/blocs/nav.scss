@@ -59,7 +59,9 @@
 			> li {
 				> a {
 					font-family: $primary-font;
-					&:hover {}
+					&:hover {
+						font-weight:700;
+					}
 					&:focus{}
 				}
 				&.active {
@@ -119,6 +121,7 @@
 			&:hover , &:focus {
 				color:$red;
 				background: transparent;
+				font-weight:400;
 			}
 
 		}
