@@ -111,6 +111,11 @@
       $("#formulaire").css({display: 'block'});
       $("#formulaire").animate({left: '20px'});
     });
+    if (undefined != inscription)
+    {
+      $("#formulaire").css({display: 'block'});
+      $("#formulaire").animate({left: '20px'});
+    }
     $("#cross").click(function(){
     $("#formulaire").css({display: 'none'});
     $("#formulaire").animate({right: '20px'});

@@ -11,7 +11,7 @@ if(isset($_POST["email"])){
 				if($retour != false){
 
 
-					$msg = "<span>"."Merci. Vous receverez très prochainement une invitation au club.". "</span>";
+					$msg = "<span class="."msg-form".">"."Merci. Vous receverez très prochainement une invitation au club.". "</span>";
 
 				}else{$msg = "<span>"."L'inscription n'a pas abouti.". "</span>";}
 
@@ -23,6 +23,7 @@ if(isset($_POST["email"])){
 
 
 ?>
+
 <section class="home_club" id="section_7">
 
 	<div class="container">
@@ -35,7 +36,7 @@ if(isset($_POST["email"])){
 				<div class="box-text">
 					<h2 class="special_title">Krill Tonic<br/><strong>Bien plus<br/> qu'une expérience</strong></h2>
 					<div class="main clearfix">
-						<form id="nl-form" method="post"class="nl-form">
+						<form id="nl-form" method="post" action="#section_7" class="nl-form">
 							<input type="hidden" name="pre_co" value="0">
 							<p>Rejoignez dès à présent le Club Krill Tonic et sublimez votre quotidien. 
 								Vous vous appelez <input type="text" name="prenom" value="" placeholder="PRÉNOM" data-subline=""/>, <input type="text" name="nom" value="" placeholder="NOM" data-subline=""/> et vous souhaitez recevoir plus d’informations sur <input type="text" name="email" value="" placeholder="ADRESSE E-MAIL" data-subline=""/>.</p>
