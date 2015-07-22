@@ -11,11 +11,11 @@ if(isset($_POST["email"])){
 				if($retour != false){
 
 
-					$msg = "<span>"."Merci. Vous receverez très prochainement un e-mail de notre part.". "</span>";
+					$msg = "<span class="."msg-form".">"."Merci. Vous receverez très prochainement un e-mail de notre part.". "</span>";
 
-				}else{$msg = "<span>"."L'inscription n'a pas abouti.". "</span>";}
+				}else{$msg = "<span class="."msg-form".">"."L'inscription n'a pas abouti.". "</span>";}
 
-			}else{$msg = "<span>"."Nom invalide.". "</span>";}
+			}else{$msg = "<span class="."msg-form".">"."Nom invalide.". "</span>";}
 		}
 
 	}
