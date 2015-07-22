@@ -39,7 +39,7 @@ if(isset($_POST["email"])){
 						<form id="nl-form" method="post" action="#section_7" class="nl-form">
 							<input type="hidden" name="pre_co" value="0">
 							<p>Rejoignez dès à présent le Club Krill Tonic et sublimez votre quotidien. 
-								Vous vous appelez <input type="text" name="prenom" value="" placeholder="PRÉNOM" data-subline=""/>, <input type="text" name="nom" value="" placeholder="NOM" data-subline=""/> et vous souhaitez recevoir plus d’informations sur <input type="text" name="email" value="" placeholder="ADRESSE E-MAIL" data-subline=""/>.</p>
+								Vous vous appelez <input type="text" name="prenom" value="" placeholder="Prénom" data-subline=""/>, <input type="text" name="nom" value="" placeholder="Nom" data-subline=""/> et vous souhaitez recevoir plus d’informations sur <input type="text" name="email" value="" placeholder="Adresse e-mail" data-subline=""/>.</p>
 								<button type="submit"  class="nlforminput btn btn-4 btn-4c icon-arrow-right">Validez</button>
 								<?php if(isset($msg)) echo $msg;?>
 							</form>

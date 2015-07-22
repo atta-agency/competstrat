@@ -64,7 +64,8 @@
 				            <li><a class="scrollTo" href="#section_1">Accueil</a></li>
 				            <li><a class="scrollTo" href="#section_2">Art de vivre</a></li>
 				            <li><a class="scrollTo" href="#section_3">La puissance</a></li>
-				            <li><a class="scrollTo" href="#section_4">L'histoire</a></li>
+				            <li><a class="scrollTo" href="#section_4">La boisson</a></li>
+				            <li><a class="scrollTo" href="#section_5">L'histoire</a></li>
 				            <li><a class="scrollTo hot" href="#section_6">Pré-commandez</a></li>
 				             <li><a class="scrollTo" href="#section_7">Le club</a></li>
 				          </ul>

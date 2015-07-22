@@ -448,7 +448,7 @@ section {
 .nl-dd ul li.nl-dd-checked:before,
 .nl-submit:before,
 .nl-field-go:before {
-	font-family: 'fontAwesome';
+	font-family: 'nlicons';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -466,7 +466,8 @@ section {
 }
 
 .nl-ti-text ul {
-	min-width: 8em;
+	min-width: 15em;
+	padding: 15px;
 }
 
 .nl-ti-text ul li.nl-ti-input input {
@@ -474,6 +475,8 @@ section {
 	padding: 0.2em 2em 0.2em 0.5em;
 	border-bottom: none;
 	color: #fff;
+
+
 }
 
 .nl-form .nl-field-go {
@@ -500,6 +503,8 @@ section {
 /* custom placeholder color */
 input::-webkit-input-placeholder {
 	color: rgba(255,255,255,0.8);
+	font-size: 1em;
+	
 }
 
 input:active::-webkit-input-placeholder ,

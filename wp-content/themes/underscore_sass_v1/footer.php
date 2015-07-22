@@ -45,7 +45,7 @@
           </li>
           <li>
             <a href="https://www.youtube.com/channel/UCm_radTdgzX1VeA7DhAIvdg">
-              <i class="fa fa-youtube"></i><br/>
+              <i class="fa fa-youtube-play"></i><br/>
               <p>Youtube</p>
             </a>
           </li>      
