@@ -13,9 +13,9 @@ if(isset($_POST["email"])){
 
 					$msg = "<span class="."msg-form".">"."Merci. Vous receverez très prochainement une invitation au club.". "</span>";
 
-				}else{$msg = "<span>"."L'inscription n'a pas abouti.". "</span>";}
+				}else{$msg = "<span class="."msg-form".">"."L'inscription n'a pas abouti.". "</span>";}
 
-			}else{$msg = "<span>"."Nom invalide.". "</span>";}
+			}else{$msg = "<span class="."msg-form".">"."Nom invalide.". "</span>";}
 		}
 
 	}
