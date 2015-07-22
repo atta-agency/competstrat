@@ -11,7 +11,7 @@ if(isset($_POST["email"])){
 				if($retour != false){
 
 
-					$msg = "<span>"."Merci. Vous receverez très prochainement une invitation au club.". "</span>";
+					$msg = "<span>"."Merci. Vous receverez très prochainement un e-mail de notre part.". "</span>";
 
 				}else{$msg = "<span>"."L'inscription n'a pas abouti.". "</span>";}
 
@@ -19,10 +19,15 @@ if(isset($_POST["email"])){
 		}
 
 	}
+
+	if ($msg != ''){
+		echo "<script>var inscription ='trololo';</script>";
+	}
 }   
 
 
 ?>
+
 <section id="section_6" class="home_produit">
 	<div class="container">
 		<div class="row">
@@ -33,9 +38,9 @@ if(isset($_POST["email"])){
 					<div id="formulaire">
 						<div id="cross"><img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/cross.png"/></div>
 						
-						<form class="form" method="POST" action="" id="form1">
-						<input type="hidden" name="pre_co" value="1">
-						<h3>Pré-commandez votre fiole de <span class="light">Krill Tonic</span></h3>
+						<form class="form" method="POST" action="#section_6" id="form1">
+							<input type="hidden" name="pre_co" value="1">
+							<h3>Pré-commandez votre fiole de <span class="light">Krill Tonic</span></h3>
 							<p class="name">
 								<input name="nom" type="text" class="" placeholder="Votre nom" id="name" />
 							</p>
