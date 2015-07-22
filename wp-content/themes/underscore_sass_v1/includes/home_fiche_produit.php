@@ -31,7 +31,7 @@ if(isset($_POST["email"])){
 				<div class="fiche-produit">
 					
 					<div id="formulaire">
-					<a href="javascript:Closeform('formulaire');"><img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/cross.png"/></a>
+						<div id="cross"><img class="cross" src="<?php echo get_template_directory_uri(); ?>/assets/img/cross.png"/></div>
 						
 						<form class="form" method="POST" action="" id="form1">
 						<input type="hidden" name="pre_co" value="1">

@@ -95,14 +95,14 @@
 </script> 
 <script>
 
-  function Closeform(idform){ 
+  /*function Closeform(idform){ 
 
       $("#"+idform).animate({opacity:'0'},1000,function(){ 
         $("#"+idform).css({display:'none'});    
 
       }); 
 
-  } 
+  } */
 
 </script>
 <script> 
@@ -111,6 +111,11 @@
       $("#formulaire").css({display: 'block'});
       $("#formulaire").animate({left: '20px'});
     });
+    $("#cross").click(function(){
+    $("#formulaire").css({display: 'none'});
+    $("#formulaire").animate({right: '20px'});
+  });
+
   });
 </script> 
 <script type="text/javascript">
