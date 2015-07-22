@@ -29,18 +29,27 @@
     </div>
     <div class="controls-box">
       <ul class="list-inline">
-        <li>
-          <a class="control left" href="[id^=myCarousel]" data-slide="prev">‹</a>
+        <li class="pull-left" >
+          <a class="control left pull-left" href="[id^=myCarousel]" data-slide="prev"style="display:inline-block; width:48px;height:48px;line-height:44px;text-align:center;border:1px solid #e1e1e1; border-radius:50%;">‹</a>
         </li>
-        <li>
+        <li style="position:absolute;left:0;z-index:-1;width:100%;padding: 10px  50px;">
           <ol class="list-inline carousel-indicators">
-            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel2" data-slide-to="1"></li>
-            <li data-target="#myCarousel2" data-slide-to="2"></li>
+            <li style="margin: 0 5px;" class=" active"></li>
+            <li style="margin: 0 5px;"  ></li>
+            <li style="margin: 0 5px;"  ></li>
           </ol>
         </li>
+<!--         
         <li>
-          <a class="control right" href="[id^=myCarousel]" data-slide="next">›</a>
+          <ol class="list-inline carousel-indicators">
+            <li href="[id^=myCarousel]" data-slide-to="0" class="control active"></a></li>
+            <li href="[id^=myCarousel]" data-slide-to="1"></li>
+            <li href="[id^=myCarousel]" data-slide-to="2"></li>
+          </ol>
+        </li>
+ -->
+        <li class="pull-right">
+          <a class="control left pull-left" href="[id^=myCarousel]" data-slide="next" style="display:inline-block; width:48px;height:48px;line-height:44px;text-align:center;border:1px solid #eee; border-radius:50%;">›</a>
         </li>
       </ul>
     </div>
