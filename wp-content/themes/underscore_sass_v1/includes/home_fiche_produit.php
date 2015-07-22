@@ -40,7 +40,7 @@ if(isset($_POST["email"])){
 						
 						<form class="form" method="POST" action="#section_6" id="form1">
 							<input type="hidden" name="pre_co" value="1">
-							<h3>Pré-commandez votre fiole de <span class="light">Krill Tonic</span></h3>
+							<h3><strong>Pré-commandez votre fiole de </strong><span class="light">Krill Tonic</span></h3>
 							<p class="name">
 								<input name="nom" type="text" class="" placeholder="Votre nom" id="name" />
 							</p>

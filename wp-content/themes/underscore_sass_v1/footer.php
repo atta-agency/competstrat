@@ -72,7 +72,6 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/headroom.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.dualSlider.0.3.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.timers-1.2.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.3.2.min.js"></script>
@@ -93,18 +92,7 @@
     });
   });
 </script> 
-<script>
 
-  /*function Closeform(idform){ 
-
-      $("#"+idform).animate({opacity:'0'},1000,function(){ 
-        $("#"+idform).css({display:'none'});    
-
-      }); 
-
-  } */
-
-</script>
 <script> 
   $(document).ready(function(){
     $("#animate-inscri").click(function(){
@@ -123,22 +111,7 @@
 
   });
 </script> 
-<script type="text/javascript">
 
-  $(document).ready(function() {
-
-    $(".carousel").dualSlider({
-      auto:false,
-      autoDelay: 6000,
-      easingCarousel: "swing",
-      easingDetails: "easeOutBack",
-      durationCarousel: 1000,
-      durationDetails: 500
-    });
-    
-  });
-
-</script>
 <script type="text/javascript">
   // grab an element
   var myElement = document.querySelector("header");
