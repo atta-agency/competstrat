@@ -15,11 +15,11 @@
 				<p>
 					<strong>Krill Tonic vous permet de préserver la beauté et l’énergie, la fougue,
 					l’indéfectible ardeur de votre jeunesse, de ces années qui virent de belles pages s’écrire,
-					de beaux moments se vivre.</strong>
+					de beaux moments à vivre.</strong>
 				</p>
 				<p>
 					 Déguster Krill Tonic c’est s’arroger l’aptitude rare de pouvoir saisir le temps,
-					de dompter la clespydre, de maîtriser les situations les plus rudes, de subjuguer vos fréquentations,
+					de dompter la clepsydre, de maîtriser les situations les plus rudes, de subjuguer vos fréquentations,
 					mais c’est avant tout s’aimer soi même.
 				</p>
 				<p><strong>Krill Tonic est un art, un style de vie.</strong></p>
