@@ -30,7 +30,7 @@
     <div class="controls-box">
       <ul class="list-inline">
         <li class="pull-left" >
-          <a class="control left pull-left" href="[id^=myCarousel]" data-slide="prev"style="display:inline-block; width:48px;height:48px;line-height:44px;text-align:center;border:1px solid #e1e1e1; border-radius:50%;">‹</a>
+          <a class="control left pull-left" href="[id^=myCarousel]" data-slide="prev"style="">‹</a>
         </li>
         <li style="position:absolute;left:0;z-index:-1;width:100%;padding: 10px  50px;">
           <ol class="list-inline carousel-indicators">
@@ -49,7 +49,7 @@
         </li>
  -->
         <li class="pull-right">
-          <a class="control left pull-left" href="[id^=myCarousel]" data-slide="next" style="display:inline-block; width:48px;height:48px;line-height:44px;text-align:center;border:1px solid #eee; border-radius:50%;">›</a>
+          <a class="control left pull-left" href="[id^=myCarousel]" data-slide="next" style="">›</a>
         </li>
       </ul>
     </div>

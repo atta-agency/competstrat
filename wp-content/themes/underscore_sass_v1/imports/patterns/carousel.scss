@@ -25,7 +25,7 @@
 			padding: 70px;
 			.special_title {
 				font-size: 45px;
-				margin-top: 30px;
+				margin-top: 16px;
 				&:before {
 					top:30px;
 				}
@@ -102,24 +102,28 @@
 		font-size: 1.4em;
 		opacity: 1;
 		position: relative;
+
+		display:inline-block; 
+		width:48px;
+		height:48px;
+		line-height:44px;
+		text-align:center;
+		border:1px solid #af163c; 
+		color: #af163c;
+		border-radius:50%;
+
 		  &:hover {
-		  	color:#000;
+		  	color:#fff;
 		  	cursor: pointer;
 		  	text-decoration: none;
+		  	background-color: #af163c;
 		  }
 		  &:focus {
-		  	color:#000;
 		  	cursor: pointer;
 		  	text-decoration: none;
 		  }
 
-		&.left {
-			background:none;
-		}
 
-		&.right {
-			background:none;
-		}
 	}
 }
 
