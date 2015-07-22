@@ -99,7 +99,7 @@
       $("#formulaire").css({display: 'block'});
       $("#formulaire").animate({left: '20px'});
     });
-    if (undefined != inscription)
+    if ('undefined' != typeof inscription)
     {
       $("#formulaire").css({display: 'block'});
       $("#formulaire").animate({left: '20px'});
