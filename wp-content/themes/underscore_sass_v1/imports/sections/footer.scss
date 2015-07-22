@@ -1,6 +1,10 @@
 footer {
 	background-color: $primary-color;
 	color: $color-0;
+	padding: 20px;
+	.fa{
+		margin-right: 5px;
+	}
 	.first-section{
 		
 		padding-top: 20px;
@@ -21,7 +25,7 @@ footer {
 		.logo_footer, .list_social_footer {
 			float: left;
 			width: 50%;
-			padding: 5px 0;
+			padding: 0;
 			margin-bottom: 0;
 
 			@media (max-width: 768px) {
@@ -43,6 +47,7 @@ footer {
 			width: 100%;
 			margin: 0;
 			height: 100px;
+			margin-top: -20px;
 			display: table;
 			@media (max-width: 768px) {
 				border-top:1px solid #fff;
@@ -50,7 +55,7 @@ footer {
 			}
 			li {
 				width: 32.3333%;
-				height: 100px;
+				height: 120px;
 				display: table-cell;
 				vertical-align: middle;
 				text-align: center;
@@ -89,6 +94,9 @@ footer {
 	}
 	.menu {
 		list-style: none;
+		ul {
+			padding: 0;
+		}
 		li {
 			list-style-type: none;
 			text-decoration: underline;

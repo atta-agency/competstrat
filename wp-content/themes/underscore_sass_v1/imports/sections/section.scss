@@ -25,6 +25,10 @@ section {
 			font-family: 'bebas', sans-serif;
 			font-weight: 700;
 			letter-spacing: 10px;
+			@media (max-width: 480px) {
+
+				margin-top: 40px;
+			}
 
 			@media (max-width: 768px) {
 				font-size:26px;
