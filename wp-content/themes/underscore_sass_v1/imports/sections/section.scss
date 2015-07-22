@@ -504,7 +504,7 @@ section {
 input::-webkit-input-placeholder {
 	color: rgba(255,255,255,0.8);
 	font-size: 1em;
-	
+
 }
 
 input:active::-webkit-input-placeholder ,
@@ -730,28 +730,28 @@ input:focus::-ms-input-placeholder {
 				color: #000;
 				font-family: $primary-font;
 				font-weight: 300;
-				font-size: 11px;
+				font-size: 16px;
 			}
 
 				:-moz-placeholder { /* Firefox 18- */
 					color: #000;  
 					font-family: $primary-font;
 					font-weight: 300;
-					font-size: 11px;
+					font-size: 16px;
 				}
 
 				::-moz-placeholder {  /* Firefox 19+ */
 					color: #000;  
 					font-family: $primary-font;
 					font-weight: 300;
-					font-size: 11px;
+					font-size: 16px;
 				}
 
 				:-ms-input-placeholder {  
 					color: #000;  
 					font-family: $primary-font;
 					font-weight: 300;
-					font-size: 11px;
+					font-size: 16px;
 				}
 
 
